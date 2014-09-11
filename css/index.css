@@ -1,0 +1,32 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#sidebar {
+  position:absolute;
+  top:0; bottom:0; left:0;
+  display: block;
+  float: left;
+  height: 100%;
+  width: 300px;
+  text-align: center;
+  font-family: 'klinic_slablight', sans-serif;
+}
+
+#content{
+  display: block;
+  float: left;
+  height: 100%;
+  width: 100%;
+  margin-left: 300px;
+  background-color: #c0ffee;
+}
