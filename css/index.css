@@ -14,19 +14,38 @@ body {
 #sidebar {
   position:absolute;
   top:0; bottom:0; left:0;
+  z-index: 1;
   display: block;
   float: left;
   height: 100%;
-  width: 300px;
+  width: 18rem;
+  background-color: white;
   text-align: center;
-  font-family: 'klinic_slablight', sans-serif;
+  font-family: 'klinic_slabbook', serif;
+  font-size: 2rem;
+}
+
+.sidebar-logo {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  width: 3rem;
+}
+
+.sidebar-li {
+  margin-bottom: 1rem;
+}
+
+.sidebar-a {
+  color: black;
+  text-decoration: none;
 }
 
 #content{
+  box-sizing: border-box;
   display: block;
   float: left;
   height: 100%;
   width: 100%;
-  margin-left: 300px;
-  background-color: #c0ffee;
+  padding-left: 18rem;
+  background-color: #009999;
 }
