@@ -20,6 +20,7 @@ body {
   height: 100%;
   width: 18rem;
   background-color: white;
+  background-image: url('../assets/absurdidad.png');
   text-align: center;
   font-family: 'klinic_slabbook', serif;
   font-size: 2rem;
@@ -31,15 +32,6 @@ body {
   width: 3rem;
 }
 
-.sidebar-li {
-  margin-bottom: 1rem;
-}
-
-.sidebar-a {
-  color: black;
-  text-decoration: none;
-}
-
 #content{
   box-sizing: border-box;
   display: block;
@@ -47,5 +39,41 @@ body {
   height: 100%;
   width: 100%;
   padding-left: 18rem;
-  background-color: #009999;
+}
+
+#image{
+  height: 100%;
+  width: 100%;
+  background-image: url('../assets/lightbulb-bg-copy.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+/* text fill based on Lea Verou's animation http://dabblet.com/gist/6046779 */
+.link-text-fill a {
+  color: #000000;
+  text-shadow: none;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+} 
+
+.link-text-fill a::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  max-width: 0;
+  color: #009999;
+  dipslay: inline-block;
+  content: attr(data-hover);
+  -webkit-transition: max-width 0.8s;
+  -moz-transition: max-width 0.8s;
+  transition: max-width 0.8s;
+  white-space: nowrap;
+}
+
+.link-text-fill a:hover::before,
+.link-text-fill a:focus::before {
+  max-width: 100%;
 }
