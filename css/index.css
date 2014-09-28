@@ -11,6 +11,11 @@ body {
   height: 100%;
 }
 
+.teal {
+  color: #009999;
+}
+
+/* Sidebar */
 #sidebar {
   position:absolute;
   top:0; bottom:0; left:0;
@@ -20,7 +25,6 @@ body {
   height: 100%;
   width: 18rem;
   background-color: white;
-  background-image: url('../assets/absurdidad.png');
   text-align: center;
   font-family: 'klinic_slabbook', serif;
   font-size: 2rem;
@@ -30,23 +34,6 @@ body {
   margin-top: 7rem;
   margin-bottom: 7rem;
   width: 3rem;
-}
-
-#content{
-  box-sizing: border-box;
-  display: block;
-  float: left;
-  height: 100%;
-  width: 100%;
-  padding-left: 18rem;
-}
-
-#image{
-  height: 100%;
-  width: 100%;
-  background-image: url('../assets/lightbulb-bg-copy.jpg');
-  background-position: center center;
-  background-size: cover;
 }
 
 /* text fill based on Lea Verou's animation http://dabblet.com/gist/6046779 */
@@ -76,4 +63,29 @@ body {
 .link-text-fill a:hover::before,
 .link-text-fill a:focus::before {
   max-width: 100%;
+}
+
+/* Content */
+#content{
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  height: 100%;
+  width: 100%;
+  padding-left: 18rem;
+}
+
+#meet{
+  height: 100%;
+  background-image: url('../assets/meet-bg.jpg');
+  background-position: center center;
+  background-size: cover;
+  padding: 7rem;
+}
+
+.headline{
+  font-family: 'klinic_slabbook', serif;
+  padding-left: 1rem;
+  font-size: 4rem;
+  color: black;
 }
