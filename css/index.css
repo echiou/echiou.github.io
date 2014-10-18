@@ -75,6 +75,10 @@ body {
   padding-left: 18rem;
 }
 
+a{
+  text-decoration: none;
+  color: #004d99;
+}
 #meet{
   height: 100%;
   background-image: url('../assets/meet-bg.jpg');
@@ -84,8 +88,15 @@ body {
 }
 
 .headline{
+  font-family: 'maven_pro_light300', serif;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 4rem;
+}
+
+.body{
   font-family: 'klinic_slabbook', serif;
   padding-left: 1rem;
-  font-size: 4rem;
-  color: black;
+  padding-right: 1rem;
+  font-size: 2rem;
 }
