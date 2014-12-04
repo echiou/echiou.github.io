@@ -15,25 +15,54 @@ body {
   color: #009999;
 }
 
-/* Sidebar */
-#sidebar {
-  position:absolute;
-  top:0; bottom:0; left:0;
-  z-index: 1;
-  display: block;
-  float: left;
-  height: 100%;
-  width: 18rem;
-  background-color: white;
+/* Header */
+#header{
   text-align: center;
-  font-family: 'klinic_slabbook', serif;
-  font-size: 2rem;
+  height:14rem;
 }
 
-.sidebar-logo {
-  margin-top: 7rem;
-  margin-bottom: 7rem;
-  width: 3rem;
+.logo{
+  margin-top: 2rem;
+  width: 10rem;
+}
+
+/* Content */
+#content{
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  height: calc(100% - 14rem);
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: #004d99;
+}
+
+#meet{
+  height: 100%;
+  background-image: url('../assets/meet-bg.jpg');
+  background-position: center center;
+  background-size: cover;
+  padding: 3rem;
+  text-align: center;
+
+  overflow: auto;
+}
+
+.headline{
+  font-family: 'maven_pro_light300', serif;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 3rem;
+}
+
+.body{
+  font-family: 'klinic_slabbook', serif;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.5rem;
 }
 
 /* text fill based on Lea Verou's animation http://dabblet.com/gist/6046779 */
@@ -63,40 +92,4 @@ body {
 .link-text-fill a:hover::before,
 .link-text-fill a:focus::before {
   max-width: 100%;
-}
-
-/* Content */
-#content{
-  box-sizing: border-box;
-  display: block;
-  float: left;
-  height: 100%;
-  width: 100%;
-  padding-left: 18rem;
-}
-
-a{
-  text-decoration: none;
-  color: #004d99;
-}
-#meet{
-  height: 100%;
-  background-image: url('../assets/meet-bg.jpg');
-  background-position: center center;
-  background-size: cover;
-  padding: 7rem;
-}
-
-.headline{
-  font-family: 'maven_pro_light300', serif;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 4rem;
-}
-
-.body{
-  font-family: 'klinic_slabbook', serif;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 2rem;
 }
