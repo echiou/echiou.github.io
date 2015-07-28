@@ -70,7 +70,7 @@ $column-margin: 4% !default; // space between columns
 .background-image {
   height: 100%;
   width: 100%;
-  background: #ffffff url("/images/gumwall.jpg") no-repeat fixed center bottom/cover;
+  background: #ffffff url("/images/gumwall.jpg") no-repeat fixed center/cover;
 }
 
 .home {
