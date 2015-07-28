@@ -1,52 +1,155 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
 
+// Colors
+$light-grey: #e1e1e1 !default;
+$dark-grey: #777 !default;
+$primary-color: #33c3f0 !default;
+$secondary-color: lighten($dark-grey, 13.5%) !default;
+$border-color: #bbb !default;
+$link-color: #1eaedb !default;
+$font-color: #222 !default;
 
+// Typography
+$font-family-header: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family: "Merriweather", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+//Grid Variables
+$container-width: 960px !default;
+$container-width-larger-than-mobile: 85% !default;
+$container-width-larger-than-phablet: 80% !default;
+$total-columns: 12 !default;
+$column-width: 100 / $total-columns !default; // calculates individual column width based off of # of columns
+$column-margin: 4% !default; // space between columns
 
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+// Header
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+.navbar {
+  position: fixed;
+  /* center the element */
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  font-family: $font-family-header;
+  color: $dark-grey;
 }
 
+.navbar-name {
+  font-weight: 700;
+  margin-left: 1.2rem;
+  text-transform: uppercase;
+}
 
+.navbar-list {
+  list-style: none;
+  margin-bottom: 0;
+  margin-right: 1.2rem;
+}
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+.navbar-item {
+  position: relative;
+  float: right;
+  margin-bottom: 0;
+  margin-left: 2rem;
+}
+
+// Body
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+.page-content {
+  flex: 1 0 auto;
+}
+
+.background-wrapper {
+  padding-top: 48px;
+  position:relative;
+}
+
+.background-image {
+  height: 100%;
+  width: 100%;
+  background: #ffffff url("/images/gumwall.jpg") no-repeat fixed center bottom/cover;
+}
+
+.home {
+  height: 100%;
+  padding-top: 48px;
+}
+
+// Footer
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.footer {
+  font-family: $font-family;
+  color: $dark-grey;
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  flex: none;
+}
+
+.footer-list {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.footer-item {
+  position: relative;
+  display: inline;
+  margin-bottom: 0;
+  margin-right: 0.6rem;
+  margin-left: 0.6rem;
+}
+
+.footer-item a {
+  text-decoration: none;
+  color: $secondary-color;
+}
+
+.footer-item a:hover {
+  color: $dark-grey;
+}
+
+// Useful
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+.fill-height-or-more {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.fill-height-or-more > div {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
