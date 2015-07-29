@@ -40,12 +40,12 @@ $bp-larger-than-desktophd : "min-width: 1200px" !default;
 
 // Colors
 $light-grey: #e1e1e1 !default;
-$dark-grey: #cfcfcf !default;
-$primary-color: #33c3f0 !default;
+$dark-grey: #777 !default;
+$primary-color: #a4bfda !default;
+$link-color: $primary-color !default;
 $secondary-color: lighten($dark-grey, 13.5%) !default;
 $border-color: #bbb !default;
-$link-color: #1eaedb !default;
-$font-color: #222 !default;
+$font-color: $dark-grey !default;
 
 // Typography
 $font-family-header: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
