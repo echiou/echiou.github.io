@@ -3,19 +3,19 @@ layout: default
 permalink: /blog/
 ---
 
-<main class="page-content">
+<main class="page-content container">
 
-  <div class="home">
-
-    <ul class="post-list">
-      {% for post in site.posts %}
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      {% endfor %}
-    </ul>
-
+  <div class="row">
+    <div class="twelve columns">
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 
 </main>

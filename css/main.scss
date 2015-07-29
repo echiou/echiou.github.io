@@ -1,6 +1,13 @@
 ---
 ---
 
+// Breakpoints
+$bp-larger-than-mobile    : "min-width: 400px" !default;
+$bp-larger-than-phablet   : "min-width: 550px" !default;
+$bp-larger-than-tablet    : "min-width: 750px" !default;
+$bp-larger-than-desktop   : "min-width: 1000px" !default;
+$bp-larger-than-desktophd : "min-width: 1200px" !default;
+
 // Colors
 $light-grey: #e1e1e1 !default;
 $dark-grey: #777 !default;
@@ -26,6 +33,7 @@ $column-margin: 4% !default; // space between columns
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 .navbar {
   position: fixed;
+  z-index: 1;
   /* center the element */
   right: 0;
   left: 0;
@@ -35,47 +43,89 @@ $column-margin: 4% !default; // space between columns
   margin-bottom: 1.2rem;
   font-family: $font-family-header;
   color: $dark-grey;
+  text-align: center;
 }
 
 .navbar-name {
+  font-size: 1.4rem;
   font-weight: 700;
-  margin-left: 1.2rem;
   text-transform: uppercase;
+  clear:both;
+  width: 100%;
+}
+
+.navbar-name a {
+  text-decoration: none;
+  color: $dark-grey;
 }
 
 .navbar-list {
   list-style: none;
   margin-bottom: 0;
-  margin-right: 1.2rem;
+  text-align: center;
 }
 
 .navbar-item {
+  font-size: 1.4rem;
   position: relative;
-  float: right;
+  display: inline-block;
   margin-bottom: 0;
-  margin-left: 2rem;
+}
+
+.navbar-item a{
+  text-decoration: none;
+  color: $dark-grey;
+}
+
+@media (#{$bp-larger-than-phablet}) {
+  .navbar {
+    text-align: left;
+  }
+
+  .navbar-name {
+    margin-left: 1.2rem;
+  }
+
+  .navbar-list {
+    text-align: none;
+    margin-right: 1.2rem;
+  }
+
+  .navbar-item {
+    float: right;
+    margin-left: 2.4rem;
+  }
 }
 
 // Body
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 .page-content {
   flex: 1 0 auto;
+  padding-top: 68px;
 }
 
-.background-wrapper {
-  padding-top: 48px;
-  position:relative;
+@media (#{$bp-larger-than-phablet}) {
+  .page-content {
+    padding-top: 46px;
+  }
 }
+
+// Index Page
 
 .background-image {
   height: 100%;
   width: 100%;
-  background: #ffffff url("/images/gumwall.jpg") no-repeat fixed center/cover;
+  background: #ffffff url("/images/index.jpg") no-repeat fixed center/cover;
 }
 
-.home {
-  height: 100%;
-  padding-top: 48px;
+// Posts
+
+img {
+  width: 100%;
+}
+
+.post-header, .post-content {
+  text-align: center;
 }
 
 // Footer
