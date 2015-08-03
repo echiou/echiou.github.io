@@ -13,22 +13,22 @@ I am currently a student at the [University of California, Berkeley](http://www.
 ## These are some things that inspire me.
 <div class="row">
   <div class="three columns inspiration">
-    <a href="http://www.sergeysafonov.com" target="_blank">
+    <a href="http://www.sergeysafonov.com">
       <img class="square-image" src="/images/inspiration/moon_fox.jpg">
     </a>
   </div>
   <div class="three columns inspiration">
-    <a href="http://www.porterrobinson.com" target="_blank">
+    <a href="http://www.porterrobinson.com">
       <img class="square-image" src="/images/inspiration/porter_robinson.jpg">
     </a>
   </div>
   <div class="three columns inspiration">
-    <a href="https://www.kinjaz.com/" target="_blank">
+    <a href="https://www.kinjaz.com/">
       <img class="square-image" src="/images/inspiration/kinjaz.jpg">
     </a>
   </div>
   <div class="three columns inspiration">
-    <a href="http://www.monumentvalleygame.com/" target="_blank">
+    <a href="http://www.monumentvalleygame.com/">
       <img class="square-image" src="/images/inspiration/monument_valley.jpg">
     </a>
   </div>

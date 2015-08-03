@@ -9,3 +9,8 @@ flickr_username: echiou
 
 # Build settings
 markdown: kramdown
+permalink: pretty
+
+paginate: 1
+pagination_path: "/blog"
+paginate_path: "/blog/:num/"
