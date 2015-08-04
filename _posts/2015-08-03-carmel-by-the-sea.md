@@ -46,29 +46,31 @@ Headed to [Point Lobos State Natural Reserve](http://www.pointlobos.org/) for th
 
 ![][August-3-10]
 
-An island of seals.
-
 ![][August-3-11]
 
-A nice throwback of PB&J for lunch.
+An island of seals.
 
 ![][August-3-12]
 
-This was around the time Tim got bitten by a tick. It was a bit of a scare, but it turns out there's no real danger if the tick is removed fast enough. Good things his reactions are quick.
+A nice throwback of PB&J for lunch.
 
 ![][August-3-13]
 
-Low tide.
+This was around the time Tim got bitten by a tick. It was a bit of a scare, but it turns out there's no real danger if the tick is removed fast enough. Good things his reactions are quick.
 
 ![][August-3-14]
 
-After a quick respite from our hike (and quite the parking ordeal), we settled down in Carmel Beach to watch the sun set.
+Low tide.
 
 ![][August-3-15]
 
-Warming hot dogs over coals in the sand is difficult and only sometimes rewarding.
+After a quick respite from our hike (and quite the parking ordeal), we settled down in Carmel Beach to watch the sun set.
 
 ![][August-3-16]
+
+Warming hot dogs over coals in the sand is difficult and only sometimes rewarding.
+
+![][August-3-17]
 
 A chill night and trip.
 
@@ -90,3 +92,4 @@ S'more pictures [here](https://www.flickr.com/photos/echiou/sets/721576567400040
 [August-3-14]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/August-3/August-3-14.jpg
 [August-3-15]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/August-3/August-3-15.jpg
 [August-3-16]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/August-3/August-3-16.jpg
+[August-3-17]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/August-3/August-3-17.jpg
