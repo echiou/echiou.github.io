@@ -170,11 +170,15 @@ img {
   float: right;
 }
 
-//About Page
+// Contact Page
 .inputLabel {
   text-transform: uppercase;
   font-family: $font-family-header;
   text-align: left;
+}
+
+.contact-textarea {
+  height: 8em;
 }
 
 // Footer
