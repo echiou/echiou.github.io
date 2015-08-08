@@ -36,4 +36,11 @@ This website is meant to be a junction between my [casual interests](/blog) and 
   </div>
 </div>
 
+<form action="//formspree.io/ethanchiou@berkeley.edu"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
+
 [about-header]: /images/about.jpg
