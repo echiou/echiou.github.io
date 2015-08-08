@@ -36,11 +36,24 @@ This website is meant to be a junction between my [casual interests](/blog) and 
   </div>
 </div>
 
+## Contact Me
 <form action="//formspree.io/ethanchiou@berkeley.edu"
       method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
+  <div class="row">
+    <div class="six columns">
+      <label for="nameInput" class="inputLabel">Name</label>
+      <input class="u-full-width" placeholder="How may I address you?" name="name" id="nameInput" type="text">
+    </div>
+    <div class="six columns">
+      <label for="emailInput" class="inputLabel">E-mail</label>
+      <input class="u-full-width" placeholder="To where shall I reply?" name="email" id="emailInput" type="email">
+    </div>
+  </div>
+  <label for="exampleMessage" class="inputLabel">Message</label>
+  <textarea class="u-full-width" placeholder="Hi Ethan..." name="message" id="message"></textarea>
+  <input type="hidden" name="_subject" value="A message for Ethan." />
+  <input type="text" name="_gotcha" style="display:none" />
+  <input class="button-secondary u-full-width" value="Submit" type="submit">
 </form>
 
 [about-header]: /images/about.jpg
