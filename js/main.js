@@ -13,17 +13,23 @@ window.onload = function(){
           },
           success: function(data){
             // Success message
-            submitButton.innerHTML = 'Thank you!';
+            submitButton.innerHTML = '';
+            $('#contact-overlay').fadeIn();
 
-            //clear all fields
-            $('#contactForm').trigger("reset");
+            setTimeout(function(){
+              //clear all fields
+              $('#contact-form').trigger("reset");
+            }, 500);
           },
           error: function(){
             // Success message
             submitButton.innerHTML = 'Error. Please try again later.';
 
+            setTimeout(function(){
+              submitButton.innerHTML = 'Submit';
+            }, 2000);
             //clear all fields
-            $('#contactForm').trigger("reset");
+            $('#contact-form').trigger("reset");
           }
         });
       });
