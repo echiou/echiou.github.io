@@ -14,3 +14,9 @@ permalink: pretty
 paginate: 1
 pagination_path: "/blog"
 paginate_path: "/blog/:num/"
+
+# collections
+collections:
+  work:
+    output: true
+    permalink: /work/:path/

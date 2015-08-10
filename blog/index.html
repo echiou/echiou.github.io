@@ -18,7 +18,7 @@ layout: default
       </div>
 
       <!-- This loops through the paginated posts -->
-      {% for post in paginator.posts %}
+      {% for post in paginator.posts in site.categories['blog'] %}
         <div class="post-header">
           <p class="post-meta">{{ post.date | date: "%m.%d.%y"}}</p>
           <h2>
