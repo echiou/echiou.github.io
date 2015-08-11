@@ -6,7 +6,7 @@ categories: toys reviews
 ---
 ![][August-10-1]
 
-I recently developed an interest in designer toys, and this was the first figurine in what I hope wil be a reasonably sized collection.
+I recently developed an interest in designer toys, and this was the first figurine in what I hope will be a reasonably sized collection.
 
 [Jibibuts](http://noferin.com/2011/jibibuts) were released in 2009 by [Noferin](http://http://noferin.com), a pair of artists that work in plush and wood, rather than the more traditional vinyl or resin.
 
