@@ -24,7 +24,7 @@ The blind-box aspect of the toys is also neat; you don't know what you got until
 
 Noferin took the time to craft a backstory for these creatures, imagining an island, Carrara, from which they hail, researched by the "Biological Institute of Carrara". This translates to the 14 possible figurines one can get from the box - six species, each in both male (more colorful) and female (brown-towned) variations, as well as two "unknown species", which are "chaser" figures.
 
-I am personally enamored by packaging design and feel that it is an extremely important aspect of a product. This is especially the case in blind-box designer toys like this, as opening the box is half of the fun.
+I'm personally enamored by packaging design and feel that it's an extremely important aspect of a product. This is especially the case in blind-box designer toys like this, as opening the box is half the fun.
 
 Unfortunately, I found the packaging of the Jibibuts to be a bit lacking. The cardboard felt flimsy and the wood print just looked kind of cheap. Also, the typography on the side had a strange font and was justified weirdly (which is a bit nitpicky, but it really does detract from the overall experience for me). One thing I did like was the various renderings of each of the possible figurines.
 
