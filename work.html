@@ -12,17 +12,21 @@ permalink: /work/
       {% for post in posts %}
         <div class="work-post">
           <div class="row">
-            <div class="six columns">
+            <div class=" twelve columns u-center">
+              <p class="post-meta">{{ post.dates }}</p>
+              <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="six columns offset-by-three">
               <img src={{ post.image }}>
             </div>
-            <div class="six columns work-post-text">
-              <div class="work-post-header">
-                <p class="post-meta">{{ post.dates }}</p>
-                <h2>
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </h2>
-              </div>
-              <p> {{ post.description }} </p>
+          </div>
+          <div class="row">
+            <div class="twelve columns u-center work-blurb">
+              <p class="work-desc">{{ post.description }}</p>
               <p>
                 <a href={{ post.url }}>Read More <span class="fa fa-long-arrow-right"></span></a><br>
                 {% if post.github %}

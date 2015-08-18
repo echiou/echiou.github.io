@@ -140,11 +140,6 @@ img {
   color: $dark-grey;
 }
 
-.work-post-text {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 .post-title, .blog-header {
   text-transform: uppercase;
 }
@@ -208,8 +203,16 @@ img {
 
 // Work
 .work-post {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.work-blurb  {
+  margin-top: 1rem;
+}
+
+.work-desc {
+  margin-bottom: 1rem;
 }
 
 // Footer
