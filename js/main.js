@@ -1,4 +1,12 @@
 window.onload = function(){
+  $('.slick-carousel').slick({
+    adaptiveHeight: true,
+    fade: true,
+    cssEase: 'ease-in-out',
+    speed: 400,
+    arrows: true,
+  });
+
   $(function() {
       $("#contact-form").submit(function(e) {
         e.preventDefault();
