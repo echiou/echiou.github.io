@@ -34,16 +34,20 @@ $column-margin: 4% !default; // space between columns
 .navbar {
   position: fixed;
   z-index: 1;
+  background: lighten($light-grey, 9.6%);
   /* center the element */
   right: 0;
   left: 0;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 1.2rem;
-  margin-bottom: 1.2rem;
   font-family: $font-family-header;
   color: $dark-grey;
   text-align: center;
+}
+
+.navbar-content {
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
 }
 
 .navbar-name {
