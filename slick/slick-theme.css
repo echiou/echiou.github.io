@@ -114,10 +114,12 @@
 @media screen and (max-width: 550px) {
     .slick-prev
     {
+        display:none !important;
         left: 1rem;
     }
     .slick-next
     {
+        display:none !important;
         right: 1rem;
     }
 }

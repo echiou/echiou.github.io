@@ -10,7 +10,7 @@ Have a project you would like to work on with me? Want to have a conversation ab
 ## Let's talk.
 <form id="contact-form" class="contact-form" action="//formspree.io/ethanchiou@berkeley.edu" method="POST">
   <div id="contact-overlay" class="contact-overlay">
-    <h3 class="u-vertical-align">Thank you!</h3>
+    <h3 class="u-vertical-align thanks">Thank you!</h3>
   </div>
   <div class="row">
     <div class="six columns">

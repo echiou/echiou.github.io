@@ -83,11 +83,11 @@
     min-height: 1px;
 }
 @media screen and (max-width: 550px) {
-    .slick-slide
+/*    .slick-slide
     {
         margin-left: 4rem;
         margin-right: 4rem;
-    }
+    }*/
 }
 [dir='rtl'] .slick-slide
 {

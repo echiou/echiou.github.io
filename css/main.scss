@@ -121,6 +121,13 @@ $column-margin: 4% !default; // space between columns
   background: #ffffff url("/images/index.jpg") no-repeat fixed center/cover;
 }
 
+.index-header {
+  text-align: center;
+  font-family: $font-family-header;
+  color: white;
+  font-size: 5rem;
+}
+
 // Posts
 
 img {
@@ -185,6 +192,11 @@ img {
   width: 100%;
   height: 100%;
   background-color: lighten($light-grey, 9.6%);
+}
+
+.thanks{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .input-label {
@@ -293,8 +305,4 @@ img {
   -moz-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-}
-
-.slick-image {
-  display: none;
 }
