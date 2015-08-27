@@ -12,6 +12,8 @@ I am currently a student at the [University of California, Berkeley](http://www.
 
 This website is meant to be a junction between my [casual interests](/blog) and my [technical work](/work), helping me more easily bridge the two.
 
+More about my coursework and professional experience can be found on my [résumé](/other/resume.pdf).
+
 Want to talk? [Hit me up.](/contact)
 
 ## These are some things that inspire me.
