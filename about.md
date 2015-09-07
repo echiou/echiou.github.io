@@ -20,22 +20,22 @@ Want to talk? [Hit me up.](/contact)
 <div class="row">
   <div class="three columns inspiration">
     <a href="http://www.sergeysafonov.com">
-      <img class="square-image" src="/images/inspiration/moon_fox.jpg">
+      <img class="grayscale-image" src="/images/inspiration/moon_fox.jpg">
     </a>
   </div>
   <div class="three columns inspiration">
     <a href="http://www.porterrobinson.com">
-      <img class="square-image" src="/images/inspiration/porter_robinson.jpg">
+      <img class="grayscale-image" src="/images/inspiration/porter_robinson.jpg">
     </a>
   </div>
   <div class="three columns inspiration">
     <a href="https://www.kinjaz.com/">
-      <img class="square-image" src="/images/inspiration/kinjaz.jpg">
+      <img class="grayscale-image" src="/images/inspiration/kinjaz.jpg">
     </a>
   </div>
   <div class="three columns inspiration">
     <a href="http://www.monumentvalleygame.com/">
-      <img class="square-image" src="/images/inspiration/monument_valley.jpg">
+      <img class="grayscale-image" src="/images/inspiration/monument_valley.jpg">
     </a>
   </div>
 </div>

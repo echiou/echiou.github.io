@@ -8,38 +8,50 @@ permalink: /work/
   <div class="row">
     <div class="twelve columns">
       <h1 class="blog-header"><a href="/work">My Work</a></h1>
-      {% assign posts = site.work | sort: 'position' %}
-      {% for post in posts %}
-        <div class="work-post">
-          <div class="row">
-            <div class=" twelve columns u-center">
-              <p class="post-meta">{{ post.dates }}</p>
-              <h2>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </h2>
+      <ul class="work-posts">
+          {% assign posts = site.work | sort: 'position' %}
+          {% for post in posts %}
+          <li class="work-post">
+  <!--           <div class="row">
+              <div class=" twelve columns u-center">
+                <p class="post-meta">{{ post.dates }}</p>
+                <h2>
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="six columns offset-by-three">
-              <img src={{ post.image }}>
+            <div class="row">
+              <div class="six columns offset-by-three">
+                <img src={{ post.image }}>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="twelve columns u-center work-blurb">
-              <p class="work-desc">{{ post.description }}</p>
-              <p>
-                <a href={{ post.url }}>Read More <span class="fa fa-long-arrow-right"></span></a><br>
-                {% if post.github %}
-                  <a href={{post.github}}>View on Github</a>
-                {% endif %}
-                {% if post.site %}
-                  <a href={{post.site}}>View project site</a>
-                {% endif %}
-              </p>
-            </div>
-          </div>
-        </div>
-      {% endfor %}
+            <div class="row">
+              <div class="twelve columns u-center work-blurb">
+                <p class="work-desc">{{ post.description }}</p>
+                <p>
+                  <a href={{ post.url }}>Read More <span class="fa fa-long-arrow-right"></span></a><br>
+                  {% if post.github %}
+                    <a href={{post.github}}>View on Github</a>
+                  {% endif %}
+                  {% if post.site %}
+                    <a href={{post.site}}>View project site</a>
+                  {% endif %}
+                </p>
+              </div>
+            </div> -->
+            <a class="work-link" href={{ post.url }}>
+              <img class="grayscale-image" src={{ post.image }}>
+              <div class="white-overlay"></div>
+              <div class="work-meta">
+                <div class="u-vertical-align">
+                  <p class="post-meta">{{ post.dates }}</p>
+                  <h2 class="post-title">{{ post.title }}</h2>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 

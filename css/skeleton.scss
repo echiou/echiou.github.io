@@ -39,17 +39,17 @@ $bp-larger-than-desktop   : "min-width: 1000px" !default;
 $bp-larger-than-desktophd : "min-width: 1200px" !default;
 
 // Colors
-$light-grey: #e1e1e1 !default;
-$dark-grey: #777 !default;
-$primary-color: #a4bfda !default;
-$link-color: $dark-grey !default;
-$secondary-color: lighten($dark-grey, 13.5%) !default;
+$light-grey: #efefef !default;
+$dark-grey: #3d3d3d !default;
+$secondary-color: lighten($dark-grey, 33%) !default;
+$primary-color: $secondary-color !default;
+$link-color: $primary-color !default;
 $border-color: #bbb !default;
 $font-color: $dark-grey !default;
 
 // Typography
-$font-family-header: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$font-family: "Merriweather", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-header: "pier_sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family: "brelaregular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 
 //Grid Variables
 $container-width: 960px !default;
@@ -61,6 +61,9 @@ $column-margin: 4% !default; // space between columns
 
 // Misc
 $global-radius: 4px !default;
+
+// Transitions
+$plain-transition: all .5s ease-in-out;
 
 // Functions
 @function grid-column-width($n) {
@@ -176,7 +179,7 @@ $global-radius: 4px !default;
 
 html {
   font-size: 62.5%;
-  background: lighten($light-grey, 9.6%);
+  background: lighten($light-grey, 5%);
   height: 100%;
   margin: 0;
 }
@@ -228,7 +231,7 @@ p {
 a {
   color: $link-color;
   &:hover {
-    color: darken($link-color, 5%);
+    color: $dark-grey;
   }
 }
 
@@ -255,6 +258,11 @@ button {
   border: 1px solid $border-color;
   cursor: pointer;
   box-sizing: border-box;
+  -webkit-transition: $plain-transition;
+  -moz-transition: $plain-transition;
+  -ms-transition: $plain-transition; /* IE10 is actually unprefixed */
+  -o-transition: $plain-transition;
+  transition: $plain-transition;
 }
 
 input {

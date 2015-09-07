@@ -9,17 +9,17 @@ $bp-larger-than-desktop   : "min-width: 1000px" !default;
 $bp-larger-than-desktophd : "min-width: 1200px" !default;
 
 // Colors
-$light-grey: #e1e1e1 !default;
-$dark-grey: #777 !default;
-$primary-color: #a4bfda !default;
+$light-grey: #efefef !default;
+$dark-grey: #3d3d3d !default;
+$secondary-color: lighten($dark-grey, 33%) !default;
+$primary-color: $secondary-color !default;
 $link-color: $primary-color !default;
-$secondary-color: lighten($dark-grey, 13.5%) !default;
 $border-color: #bbb !default;
 $font-color: $dark-grey !default;
 
 // Typography
-$font-family-header: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$font-family: "Merriweather", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-header: "pier_sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family: "brelaregular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 
 //Grid Variables
 $container-width: 960px !default;
@@ -29,12 +29,12 @@ $total-columns: 12 !default;
 $column-width: 100 / $total-columns !default; // calculates individual column width based off of # of columns
 $column-margin: 4% !default; // space between columns
 
+//Transitions
+$plain-transition: all .5s ease-in-out;
+
 // Header
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 .navbar {
-  position: fixed;
-  z-index: 1;
-  background: lighten($light-grey, 9.6%);
   /* center the element */
   right: 0;
   left: 0;
@@ -46,22 +46,44 @@ $column-margin: 4% !default; // space between columns
 }
 
 .navbar-content {
-  margin-top: 1.2rem;
-  margin-bottom: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
-.navbar-name {
-  font-size: 1.4rem;
-  font-weight: 700;
+.navbar-logo-holder {
   text-transform: uppercase;
   clear:both;
-  width: 100%;
+  height: 7rem;
+}
+
+.navbar-logo {
+  height: 100%;
+  display: inline-block;
+}
+
+.navbar-logo path {
+  fill: $dark-grey;
+  -webkit-transition: $plain-transition;
+  -moz-transition: $plain-transition;
+  -ms-transition: $plain-transition; /* IE10 is actually unprefixed */
+  -o-transition: $plain-transition;
+  transition: $plain-transition;
+}
+
+.navbar-logo:hover path {
+  fill: $secondary-color;
+}
+
+.navbar-list-holder {
+  text-align: center;
 }
 
 .navbar-list {
   list-style: none;
   margin-bottom: 0;
-  text-align: center;
+  margin-right: 2rem;
+  margin-top: 24px;
+  display: inline-block;
 }
 
 .navbar-item {
@@ -69,11 +91,18 @@ $column-margin: 4% !default; // space between columns
   position: relative;
   display: inline-block;
   margin-bottom: 0;
+  margin-left: 2rem;
+  float: right;
 }
 
 .navbar-item, a, .navbar-name a{
   text-decoration: none;
   color: $secondary-color;
+  -webkit-transition: $plain-transition;
+  -moz-transition: $plain-transition;
+  -ms-transition: $plain-transition; /* IE10 is actually unprefixed */
+  -o-transition: $plain-transition;
+  transition: $plain-transition;
 }
 
 .navbar-item a:hover, .navbar-name a:hover{
@@ -89,31 +118,12 @@ $column-margin: 4% !default; // space between columns
     text-align: left;
   }
 
-  .navbar-name {
-    margin-left: 2rem;
+  .navbar-content {
+    margin-bottom: 2rem;
   }
 
-  .navbar-list {
-    text-align: none;
-    margin-right: 2rem;
-  }
-
-  .navbar-item {
-    float: right;
-    margin-left: 2rem;
-  }
-}
-
-// Body
-//––––––––––––––––––––––––––––––––––––––––––––––––––
-.page-content {
-  flex: 1 0 auto;
-  padding-top: 68px;
-}
-
-@media (#{$bp-larger-than-phablet}) {
-  .page-content {
-    padding-top: 46px;
+  .navbar-list-holder{
+    text-align: right;
   }
 }
 
@@ -135,7 +145,7 @@ img {
   text-align: center;
 }
 
-.post-link {
+.post-title, .post-link, .blog-header {
   text-transform: uppercase;
 }
 
@@ -144,16 +154,16 @@ img {
   color: $dark-grey;
 }
 
-.post-title, .blog-header {
-  text-transform: uppercase;
-}
-
 .blog-header > a {
   color: $dark-grey;
 }
 
 .blog-header > a:hover {
   color: $primary-color;
+}
+
+.blog-desc {
+  text-align: center;
 }
 
 .post-content {
@@ -173,6 +183,8 @@ img {
 .next {
   float: right;
 }
+
+// About Page
 
 // Contact Page
 .contact-form {
@@ -211,9 +223,72 @@ img {
 }
 
 // Work
+.work-posts {
+  display: inline-block;
+  list-style: none;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  margin-bottom: -4rem;
+}
+
 .work-post {
-  margin-top: 2rem;
+  position: relative;
+  box-sizing: border-box;
+  float: left;
+  display: block;
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin-bottom: 2rem;
+  width: 100%;
+}
+
+.work-meta {
+  pointer-events: none;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: $plain-transition;
+  -moz-transition: $plain-transition;
+  -ms-transition: $plain-transition; /* IE10 is actually unprefixed */
+  -o-transition: $plain-transition;
+  transition: $plain-transition;
+}
+
+.white-overlay {
+  pointer-events: none;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+  opacity: 0;
+  -webkit-transition: $plain-transition;
+  -moz-transition: $plain-transition;
+  -ms-transition: $plain-transition; /* IE10 is actually unprefixed */
+  -o-transition: $plain-transition;
+  transition: $plain-transition;
+}
+
+.work-link:hover > .white-overlay {
+  opacity: 0.7;
+}
+
+.work-link:hover > .work-meta {
+  opacity: 1;
+}
+
+@media (#{$bp-larger-than-tablet}) {
+  .work-post {
+    width: 50%;
+    margin-bottom: 4rem;
+  }
 }
 
 .work-blurb  {
@@ -222,6 +297,19 @@ img {
 
 .work-desc {
   margin-bottom: 1rem;
+}
+
+.grayscale-image {
+  -webkit-transition: $plain-transition;
+  -moz-transition: $plain-transition;
+  -ms-transition: $plain-transition; /* IE10 is actually unprefixed */
+  -o-transition: $plain-transition;
+  transition: $plain-transition;
+}
+
+.grayscale-image:hover {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
 }
 
 // Footer
@@ -279,7 +367,7 @@ img {
   flex-direction: column;
 }
 
-.fill-height-or-more > div {
+.fill-height-or-more > div, .fill-height-or-more > main {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -moz-box-flex: 1;
@@ -291,10 +379,10 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
+  // -webkit-justify-content: center;
   -moz-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  // justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -302,4 +390,26 @@ img {
   -moz-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+.scrollToTop{
+  text-align:center;
+  text-decoration: none;
+  position:fixed;
+  bottom:2rem;
+  right:2rem;
+  display:none;
+  -webkit-transition: color .5s ease-in-out;
+  -moz-transition: color .5s ease-in-out;
+  -ms-transition: color .5s ease-in-out; /* IE10 is actually unprefixed */
+  -o-transition: color .5s ease-in-out;
+  transition: color .5s ease-in-out;
+}
+
+@media (max-width: 750px) {
+  .scrollToTop {
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
 }

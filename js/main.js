@@ -16,6 +16,24 @@ window.onload = function(){
     ]
   });
 
+  if ($(this).scrollTop() > 110) {
+    $('.scrollToTop').fadeIn(500);
+  }
+  //Check to see if the window is top if not then display button
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 110) {
+      $('.scrollToTop').fadeIn(500);
+    } else {
+      $('.scrollToTop').fadeOut(500);
+    }
+  });
+
+  //Click event to scroll to top
+  $('.scrollToTop').click(function(){
+    $('html, body').animate({scrollTop : 0},1000);
+    return false;
+  });
+
   $(function() {
       $("#contact-form").submit(function(e) {
         e.preventDefault();

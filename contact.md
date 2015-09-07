@@ -3,8 +3,6 @@ layout: page
 title: Contact Me
 permalink: /contact/
 ---
-![][contact-header]
-
 Have a project you would like to work on with me? Want to have a conversation about life? Or just grab some coffee?
 
 ## Let's talk.
@@ -28,5 +26,3 @@ Have a project you would like to work on with me? Want to have a conversation ab
   <input type="text" name="_gotcha" style="display:none" />
   <button class="u-full-width submit-button" type="submit" id="contact-submit">Ping me.</button>
 </form>
-
-[contact-header]: /images/contact.jpg
