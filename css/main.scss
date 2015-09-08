@@ -152,21 +152,29 @@ img {
   text-align: center;
 }
 
-.post-title, .post-link, .blog-header {
+.post-title, .post-link, .blog-header, .work-header {
   text-transform: uppercase;
 }
 
-.post-header, .blog-header {
+.post-header, .blog-header, .work-header {
   text-align: center;
   color: $dark-grey;
 }
 
-.blog-header > a {
-  color: $dark-grey;
+.blog-header > a, .work-header > a {
+  color: $primary-color;
 }
 
 .blog-header > a:hover {
-  color: $primary-color;
+  color: $play-color;
+}
+
+.work-header > a:hover {
+  color: $work-color;
+}
+
+.play-color {
+  color: $play-color;
 }
 
 .blog-desc {
@@ -189,6 +197,10 @@ img {
 
 .next {
   float: right;
+}
+
+.next:hover, .prev:hover {
+  color: $play-color;
 }
 
 // About Page
