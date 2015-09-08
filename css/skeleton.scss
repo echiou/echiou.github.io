@@ -630,6 +630,17 @@ hr {
   clear: both;
 }
 
+// Selection
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+::selection {
+  background: $dark-grey; /* WebKit/Blink Browsers */
+  color: lighten($light-grey, 5%);
+}
+::-moz-selection {
+  background: $dark-grey; /* Gecko Browsers */
+  color: lighten($light-grey, 5%);
+}
+
 // Media Queries
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 

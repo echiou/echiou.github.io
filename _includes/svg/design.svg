@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" class="work-icon" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 360 360" preserveAspectRatio="xMinYMax meet" enable-background="new 0 0 360 360" xml:space="preserve">
+<g>
+  <path fill="#231F20" d="M148,68v80H32V68H148 M162,54H18v108h144V54L162,54z"/>
+</g>
+<g>
+  <path fill="#231F20" d="M328,68v80H212V68H328 M342,54H198v108h144V54L342,54z"/>
+</g>
+<g>
+  <path fill="#231F20" d="M148,212v80H32v-80H148 M162,198H18v108h144V198L162,198z"/>
+</g>
+<g>
+  <path fill="#231F20" d="M328,212v80H212v-80H328 M342,198H198v108h144V198L342,198z"/>
+</g>
+<rect x="257.272" y="95.272" transform="matrix(0.7071 0.7071 -0.7071 0.7071 155.4487 -159.2863)" fill="none" stroke="#231F20" stroke-width="14" stroke-miterlimit="10" width="25.456" height="25.456"/>
+<circle fill="none" stroke="#231F20" stroke-width="14" stroke-miterlimit="10" cx="270" cy="252" r="18"/>
+<line fill="none" stroke="#231F20" stroke-width="14" stroke-miterlimit="10" x1="72" y1="90.001" x2="108" y2="125.999"/>
+<line fill="none" stroke="#231F20" stroke-width="14" stroke-miterlimit="10" x1="72" y1="125.999" x2="108" y2="90.001"/>
+<polygon fill="none" stroke="#231F20" stroke-width="14" stroke-miterlimit="10" points="81,267.588 72,252 81,236.411 99,236.411
+  108,252 99,267.588 "/>
+</svg>

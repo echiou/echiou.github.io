@@ -118,6 +118,10 @@ $plain-transition: all .5s ease-in-out;
     text-align: left;
   }
 
+  .navbar-list {
+    margin-right: 2rem;
+  }
+
   .navbar-content {
     margin-bottom: 2rem;
   }
@@ -257,6 +261,16 @@ img {
   -ms-transition: $plain-transition; /* IE10 is actually unprefixed */
   -o-transition: $plain-transition;
   transition: $plain-transition;
+}
+
+.work-icon-holder {
+  height: 7rem;
+  margin-bottom: 1rem;
+}
+
+.work-icon {
+  height: 100%;
+  display: inline-block;
 }
 
 .white-overlay {

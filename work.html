@@ -8,6 +8,7 @@ permalink: /work/
   <div class="row">
     <div class="twelve columns">
       <h1 class="blog-header"><a href="/work">My Work</a></h1>
+      <h2 class="u-center">Still a work in progress. Please excuse my dust.</h2>
       <ul class="work-posts">
           {% assign posts = site.work | sort: 'position' %}
           {% for post in posts %}
@@ -45,6 +46,17 @@ permalink: /work/
               <div class="work-meta">
                 <div class="u-vertical-align">
                   <p class="post-meta">{{ post.dates }}</p>
+
+                  <div class="work-icon-holder">
+                    {% if post.category == 'hardware' %}
+                      {% include /svg/hardware.svg %}
+                    {% elsif post.category == 'software'%}
+                      {% include /svg/software.svg %}
+                    {% elsif post.category == 'design'%}
+                      {% include /svg/design.svg %}
+                    {% endif %}
+                  </div>
+
                   <h2 class="post-title">{{ post.title }}</h2>
                 </div>
               </div>
