@@ -17,9 +17,6 @@ $link-color: $primary-color !default;
 $border-color: #bbb !default;
 $font-color: $dark-grey !default;
 
-$work-color: #EE6557 !default;
-$play-color: #16A6B6 !default;
-
 // Typography
 $font-family-header: "pier_sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family: "brelaregular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
@@ -73,12 +70,8 @@ $plain-transition: all .5s ease-in-out;
   transition: $plain-transition;
 }
 
-.navbar-logo:hover .e {
-  fill: $work-color;
-}
-
-.navbar-logo:hover .c {
-  fill: $play-color;
+.navbar-logo:hover path {
+  fill: $secondary-color;
 }
 
 .navbar-list-holder {
@@ -156,29 +149,21 @@ img {
   text-align: center;
 }
 
-.post-title, .post-link, .blog-header, .work-header {
+.post-title, .post-link, .blog-header {
   text-transform: uppercase;
 }
 
-.post-header, .blog-header, .work-header {
+.post-header, .blog-header {
   text-align: center;
   color: $dark-grey;
 }
 
-.blog-header > a, .work-header > 1 {
+.blog-header > a {
   color: $dark-grey;
 }
 
 .blog-header > a:hover {
-  color: $play-color;
-}
-
-.work-header > a:hover {
-  color: $work-color;
-}
-
-.play-color {
-  color: $play-color;
+  color: $primary-color;
 }
 
 .blog-desc {
@@ -201,10 +186,6 @@ img {
 
 .next {
   float: right;
-}
-
-.next:hover, .previous:hover {
-  color: $play-color;
 }
 
 // About Page
@@ -290,14 +271,6 @@ img {
 .work-icon {
   height: 100%;
   display: inline-block;
-}
-
-.work-icon path {
-  fill: $work-color;
-}
-
-.work-icon rect, .work-icon circle, .work-icon line, .work-icon polygon, .work-icon polyline {
-  stroke: $work-color;
 }
 
 .white-overlay {
