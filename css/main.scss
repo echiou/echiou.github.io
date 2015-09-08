@@ -17,8 +17,8 @@ $link-color: $primary-color !default;
 $border-color: #bbb !default;
 $font-color: $dark-grey !default;
 
-$work-color: #EE6557 !default;
-$play-color: #16A6B6 !default;
+$work-color: #ee6557 !default;
+$play-color: #16a6b6 !default;
 
 // Typography
 $font-family-header: "pier_sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
@@ -81,12 +81,12 @@ $plain-transition: all .5s ease-in-out;
   fill: $play-color;
 }
 
-.header-play:hover {
-  color: $play-color;
+.header-work:hover {
+  color: $work-color !important;
 }
 
-.header-work:hover {
-  color: $work-color;
+.header-play:hover {
+  color: $play-color !important;
 }
 
 .navbar-list-holder {
@@ -257,9 +257,9 @@ img {
 .work-posts {
   display: inline-block;
   list-style: none;
-  margin-left: -2rem;
-  margin-right: -2rem;
-  margin-bottom: -4rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  margin-bottom: -2rem;
 }
 
 .work-post {
@@ -267,9 +267,9 @@ img {
   box-sizing: border-box;
   float: left;
   display: block;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
   width: 100%;
 }
 
@@ -336,7 +336,7 @@ img {
 @media (#{$bp-larger-than-tablet}) {
   .work-post {
     width: 50%;
-    margin-bottom: 4rem;
+    margin-bottom: 1.5rem;
   }
 }
 
