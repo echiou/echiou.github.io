@@ -116,6 +116,14 @@ $plain-transition: all .5s ease-in-out;
   color: $link-color;
 }
 
+.header-play:hover {
+  color: $play-color !important;
+}
+
+.header-work:hover {
+  color: $work-color !important;
+}
+
 @media (#{$bp-larger-than-phablet}) {
   .navbar {
     text-align: left;
