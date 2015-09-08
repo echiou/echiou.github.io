@@ -73,8 +73,12 @@ $plain-transition: all .5s ease-in-out;
   transition: $plain-transition;
 }
 
-.navbar-logo:hover path {
-  fill: $secondary-color;
+.navbar-logo:hover .e {
+  fill: $work-color;
+}
+
+.navbar-logo:hover .c {
+  fill: $play-color;
 }
 
 .navbar-list-holder {
