@@ -17,6 +17,9 @@ $link-color: $primary-color !default;
 $border-color: #bbb !default;
 $font-color: $dark-grey !default;
 
+$work-color: #EE6557 !default;
+$play-color: #16A6B6 !default;
+
 // Typography
 $font-family-header: "pier_sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family: "brelaregular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
@@ -70,8 +73,20 @@ $plain-transition: all .5s ease-in-out;
   transition: $plain-transition;
 }
 
-.navbar-logo:hover path {
-  fill: $secondary-color;
+.navbar-logo:hover .e {
+  fill: $work-color;
+}
+
+.navbar-logo:hover .c {
+  fill: $play-color;
+}
+
+.header-work:hover {
+  color: $work-color !important;
+}
+
+.header-play:hover {
+  color: $play-color !important;
 }
 
 .navbar-list-holder {
@@ -149,21 +164,29 @@ img {
   text-align: center;
 }
 
-.post-title, .post-link, .blog-header {
+.post-title, .post-link, .blog-header, .work-header {
   text-transform: uppercase;
 }
 
-.post-header, .blog-header {
+.post-header, .blog-header, .work-header {
   text-align: center;
   color: $dark-grey;
 }
 
-.blog-header > a {
+.blog-header > a, .work-header > 1 {
   color: $dark-grey;
 }
 
 .blog-header > a:hover {
-  color: $primary-color;
+  color: $play-color;
+}
+
+.work-header > a:hover {
+  color: $work-color;
+}
+
+.play-color {
+  color: $play-color;
 }
 
 .blog-desc {
@@ -186,6 +209,10 @@ img {
 
 .next {
   float: right;
+}
+
+.next:hover, .previous:hover {
+  color: $play-color;
 }
 
 // About Page
@@ -230,9 +257,9 @@ img {
 .work-posts {
   display: inline-block;
   list-style: none;
-  margin-left: -2rem;
-  margin-right: -2rem;
-  margin-bottom: -4rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  margin-bottom: -2rem;
 }
 
 .work-post {
@@ -240,9 +267,9 @@ img {
   box-sizing: border-box;
   float: left;
   display: block;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
   width: 100%;
 }
 
@@ -273,6 +300,14 @@ img {
   display: inline-block;
 }
 
+.work-icon path {
+  fill: $work-color;
+}
+
+.work-icon rect, .work-icon circle, .work-icon line, .work-icon polygon, .work-icon polyline {
+  stroke: $work-color;
+}
+
 .white-overlay {
   pointer-events: none;
   text-align: center;
@@ -301,7 +336,7 @@ img {
 @media (#{$bp-larger-than-tablet}) {
   .work-post {
     width: 50%;
-    margin-bottom: 4rem;
+    margin-bottom: 1.5rem;
   }
 }
 

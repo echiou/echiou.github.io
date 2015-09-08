@@ -5,7 +5,7 @@ dates: June 2015
 position: 2
 image: https://raw.githubusercontent.com/echiou/metamorphe-zoetrope/master/pictures/main.jpg
 github: https://github.com/echiou/metamorphe-zoetrope
-category: design
+category: software
 context: research
 ---
 ![][metamorphe-zoetrope-1]
