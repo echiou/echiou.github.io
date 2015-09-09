@@ -211,7 +211,7 @@ img {
   float: right;
 }
 
-.next:hover, .prev:hover {
+.next:hover, .previous:hover {
   color: $play-color;
 }
 
@@ -300,6 +300,14 @@ img {
   display: inline-block;
 }
 
+.work-icon path {
+  fill: $work-color;
+}
+
+.work-icon circle, .work-icon rect, .work-icon polygon, .work-icon line, .work-icon polyline {
+  stroke: $work-color;
+}
+
 .white-overlay {
   pointer-events: none;
   text-align: center;
@@ -351,6 +359,10 @@ img {
 .grayscale-image:hover {
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
+}
+
+.back:hover {
+  color: $work-color;
 }
 
 // Footer
