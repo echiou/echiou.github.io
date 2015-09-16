@@ -1,21 +1,4 @@
 window.onload = function(){
-  $('.slick-carousel').slick({
-    adaptiveHeight: true,
-    fade: true,
-    cssEase: 'ease-in-out',
-    speed: 400,
-    arrows: true,
-    responsive: [
-    {
-      breakpoint: 550,
-      settings: {
-        autoplay: true,
-        autoplaySpeed: 2000,
-      }
-    }
-    ]
-  });
-
   if ($(this).scrollTop() > 110) {
     $('.scrollToTop').fadeIn(500);
   }
