@@ -48,6 +48,11 @@ $plain-transition: all .5s ease-in-out;
   text-align: center;
 }
 
+.index-navbar-logo {
+  opacity: 0;
+  pointer-events: none;
+}
+
 .navbar-content {
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -152,7 +157,132 @@ $plain-transition: all .5s ease-in-out;
   height: 100%;
   width: 100%;
   position: absolute;
-  background: #ffffff url("/images/index.jpg") no-repeat fixed center/cover;
+  background: #ffffff url("/images/index.jpg");
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.index-tag {
+  background: lighten($light-grey, 5%);
+  padding: 2rem;
+  box-sizing: border-box;
+  width: 45rem;
+  height: 20.5rem;
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.index-tag-inner {
+  border: .35rem $dark-grey solid;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.index-text {
+  margin: 0;
+}
+
+.index-section{
+  padding: 1rem;
+  border-bottom: .25rem $dark-grey solid;
+}
+
+.index-section-header {
+  text-align: left;
+  font-size: .5rem;
+  height: 1.25rem;
+  font-family: $font-family-header;
+}
+
+.index-header {
+  font-size: 2.5rem;
+  text-align: left;
+  height: 2.5rem;
+}
+
+.index-des {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  height: 1.5rem;
+}
+
+.index-link {
+  display: inline-block;
+  text-align: left;
+}
+
+.index-link-text {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.index-sections {
+  margin: 0;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.index-item {
+  padding: 1rem;
+  margin-bottom: 0;
+  border-right: .25rem $dark-grey solid;
+  height: 100%;
+
+  color: $dark-grey;
+
+  display: inline-block;
+  -webkit-box-flex: 1 0 0;
+  -webkit-flex: 1 0 0;
+  -moz-box-flex: 1 0 0;
+  -ms-flex: 1 0 0;
+  flex: 1 0 0;
+}
+
+.index-item-end {
+  padding: 1rem;
+  margin: 0;
+  height: 100%;
+
+  color: $dark-grey;
+
+  display: inline-block;
+  -webkit-box-flex: 1 0 0;
+  -webkit-flex: 1 0 0;
+  -moz-box-flex: 1 0 0;
+  -ms-flex: 1 0 0;
+  flex: 1 0 0;
+}
+
+.index-blog:hover  {
+  color: $play-color;
+}
+
+.index-about:hover {
+  color: $link-color;
+}
+
+.index-work:hover {
+  color: $work-color
+}
+
+.index-section-text {
+  font-size: 2rem;
 }
 
 // Posts
@@ -450,4 +580,24 @@ img {
     overflow: hidden;
     visibility: hidden;
   }
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: $dark-grey;
+}
+
+.svg-icon circle {
+  stroke: $dark-grey;
+  stroke-width: 1;
 }

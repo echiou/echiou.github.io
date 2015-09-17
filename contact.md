@@ -6,6 +6,9 @@ permalink: /contact/
 Have a project you would like to work on with me? Want to have a conversation about life? Or just grab some coffee?
 
 ## Let's talk.
+
+Feel free to also e-mail me at [ethanchiou [at] berkeley [dot] edu](mailto:ethanchiou@berkeley.edu).
+
 <form id="contact-form" class="contact-form" action="//formspree.io/ethanchiou@berkeley.edu" method="POST">
   <div id="contact-overlay" class="contact-overlay">
     <h3 class="u-vertical-align thanks">Thank you!</h3>
