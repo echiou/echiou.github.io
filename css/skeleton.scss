@@ -603,6 +603,11 @@ form {
   transform: translateY(-50%);
 }
 
+.u-nonexistant {
+  opacity: 0;
+  pointer-events: none;
+}
+
 // Misc
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 

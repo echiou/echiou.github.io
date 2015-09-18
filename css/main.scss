@@ -46,11 +46,17 @@ $plain-transition: all .5s ease-in-out;
   font-family: $font-family-header;
   color: $dark-grey;
   text-align: center;
+  background: white;
 }
 
-.index-navbar-logo {
-  opacity: 0;
-  pointer-events: none;
+.index-navbar {
+  position: fixed;
+  z-index: 1;
+  background: none;
+}
+
+.index-navbar-items > a{
+  color: lighten($light-grey, 5%);
 }
 
 .navbar-content {
@@ -64,7 +70,7 @@ $plain-transition: all .5s ease-in-out;
   height: 7rem;
 }
 
-.navbar-logo {
+.navbar-logo, .index-navbar-logo {
   height: 100%;
   display: inline-block;
 }
@@ -76,6 +82,19 @@ $plain-transition: all .5s ease-in-out;
   -ms-transition: $plain-transition; /* IE10 is actually unprefixed */
   -o-transition: $plain-transition;
   transition: $plain-transition;
+}
+
+.index-navbar-logo path {
+  fill: lighten($light-grey, 5%);
+  -webkit-transition: $plain-transition;
+  -moz-transition: $plain-transition;
+  -ms-transition: $plain-transition; /* IE10 is actually unprefixed */
+  -o-transition: $plain-transition;
+  transition: $plain-transition;
+}
+
+.index-navbar-logo:hover path {
+  fill: $dark-grey;
 }
 
 .navbar-logo:hover .e {
@@ -346,6 +365,22 @@ img {
   color: $play-color;
 }
 
+.embed-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.embed-video iframe,
+.embed-video object,
+.embed-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 // About Page
 
 // Contact Page
@@ -580,24 +615,4 @@ img {
     overflow: hidden;
     visibility: hidden;
   }
-}
-
-/* -----
-SVG Icons - svgicons.sparkk.fr
------ */
-
-.svg-icon {
-  width: 2rem;
-  height: 2rem;
-}
-
-.svg-icon path,
-.svg-icon polygon,
-.svg-icon rect {
-  fill: $dark-grey;
-}
-
-.svg-icon circle {
-  stroke: $dark-grey;
-  stroke-width: 1;
 }
