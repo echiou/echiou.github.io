@@ -318,6 +318,10 @@ img {
   text-transform: uppercase;
 }
 
+.post-title, .post-meta {
+  color: $dark-grey !important;
+}
+
 .post-header, .blog-header, .work-header {
   text-align: center;
   color: $dark-grey;
@@ -529,6 +533,24 @@ img {
 
 .back:hover {
   color: $work-color;
+}
+
+.double-photo {
+  margin-bottom: 2rem;
+}
+
+.double-photo > img {
+  width: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.double-left {
+  padding-right:1rem;
+}
+
+.double-right {
+  padding-left: 1rem;
 }
 
 // Footer
