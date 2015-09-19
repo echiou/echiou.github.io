@@ -17,7 +17,7 @@ Ethan Chiou & Tim Campbell
 <a href="https://github.com/echiou/metamorphe-zoetrope">View on Github <span class="fa fa-long-arrow-right"></span></a>
 
 
-A record player modified to demonstrate an application of [Cesar Torres](http://cearto.com)' [MetaMorphe](http://metamorphe.cearto.com/), namely the ability to interpolate keyframes from a programatically defined change in a 3D model. The record player, which has been modified to rotate at around three times its built-in speeds (~99 and 135, instead of 33 and 45 rpm, respectively), has either 15 or 10 3D printed models placed on the turntable, and a xenon flash is fired at a corresponding rate to produce the illusion of animation.
+A record player modified to demonstrate an application of [Cesar Torres](http://cearto.com)' [MetaMorphe](http://metamorphe.cearto.com/), namely the ability to interpolate keyframes from programatically defined changes in 3D models. The record player, which has been modified to rotate at around three times its built-in speeds (~99 and 135, instead of 33 and 45 rpm, respectively), has either 15 or 10   models placed on the turntable, and a flash is fired at a corresponding rate to produce the illusion of animation.
 
 ---
 
@@ -27,10 +27,25 @@ Student Presenter at [Jacobs Hall](http://jacobsinstitute.berkeley.edu/) Opening
 
 ![][metamorphe-zoetrope-1]
 
-When approached by Cesar to make a demonstration for MetaMorphe, Tim had the idea of making a zoetrobe or stroboscope to present the potential of MetaMorphe to produce keyframes in animation. We decided on a record player because of the already-implemented rotational motion and the size of the turntable. We found an inexpensive, used record player on Craigslist that I picked up in Oakland, and took it apart to see how it worked, and how we could modify it to do what we wanted.
+##Table of Contents
+
+[What We Started With](#what-we-started-with)
+/
+[Cog](#cog)
+/
+[Flash](#flash)
+/
+[Speed Control](#speed-control)
+/
+[Circuitry and Programming](#circuitry-and-programming)
+/
+[Jacobs Hall Opening Ceremony Pictures](#jacobs-hall-opening-ceremony-pictures)
+
+##What We Started With
 
 ![][metamorphe-zoetrope-11]
 
+When approached by Cesar to make a demonstration for MetaMorphe, Tim had the idea of making a zoetrobe or stroboscope to present the potential of MetaMorphe to produce keyframes in animation. We decided on a record player because of the already-implemented rotational motion and the size of the turntable. We found an inexpensive, used record player on Craigslist that I picked up in Oakland, and took it apart to see how it worked, and how we could modify it to do what we wanted.
 
 ###Built-In Buttons
 
@@ -86,7 +101,7 @@ My Arduino code can be found [here](https://github.com/echiou/metamorphe-zoetrop
 
 The perma-proto board contains wires to the arduino, as well as wires to the switch detecting the current turntable speed, the button to turn the strobe on and off, and the strobe itself. There is also a switch connected to it that we used to turn the strobe on and off before putting the button in. We hot-glued stand-offs to the underside of the top case and then screwed the Arduino and protoboard into them.
 
-##Pictures from the Jacobs Hall Opening Ceremony
+##Jacobs Hall Opening Ceremony Pictures
 
 ![][metamorphe-zoetrope-14]
 
