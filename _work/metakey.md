@@ -63,7 +63,8 @@ As you can probably see from the video above, the design of the box was not perf
 
 - Fix the design to prevent key getting stuck (either make chamber deeper or restrict the key to be in one orientation)
 - Adjust the latch so key cannot slide out when putting it in - make it flush with the front and back of chamber
-- Change how the Raspberry Pi talks to the server - rather than constant pinging, use sockets or something similar to keep connection open.
+- Change how the Raspberry Pi talks to the server - rather than constant pinging, use sockets or something similar to keep connection open
+- Figure out how to stop the servo motor when it is not being used
 
 [metakey-1]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metakey/metakey-1.jpg
 [metakey-2]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metakey/metakey-2.jpg
