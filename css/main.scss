@@ -211,14 +211,14 @@ $plain-transition: all .5s ease-in-out;
 }
 
 .index-section{
-  padding: 1rem;
+  padding: 0.9rem;
   border-bottom: .25rem $dark-grey solid;
 }
 
 .index-section-header {
   text-align: left;
-  font-size: .5rem;
-  height: 1.25rem;
+  font-size: 1rem;
+  height: 1.55rem;
   font-family: $font-family-header;
 }
 
@@ -257,7 +257,7 @@ $plain-transition: all .5s ease-in-out;
 }
 
 .index-item {
-  padding: 1rem;
+  padding: 0.9rem;
   margin-bottom: 0;
   border-right: .25rem $dark-grey solid;
   height: 100%;
