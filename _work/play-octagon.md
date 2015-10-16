@@ -2,8 +2,8 @@
 layout: work
 title: Play Octagon
 dates: Fall 2015
-position: 1
-image: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/IDD/Play-Octagon-3.jpg
+position: 2
+image: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/IDD/Play-Octagon-1.jpg
 category: hardware
 context: coursework
 ---
@@ -73,7 +73,7 @@ On the other hand, the timing and orientation scheme for the on-board accelerome
 - **Physical usability is hard to deduce** The mapping of a controller's design to the game environment differs a lot based on the user that is playing. There really is no way to deduce usability other than live user testing.
 - **Calibration is difficult** Because the game was so fast-paced, we made the tilting relatively sensitive. People had a difficult time dealing with the sensitivity, even though it was required for playability.
 
-### Insights for the future
+### For the future
 
 - Add feet or padding the the bottom of the device to reduce impact of abrasive actions
 - Implement some sort of system where onboarding guidance is required before play

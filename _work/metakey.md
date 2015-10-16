@@ -59,12 +59,13 @@ The corresponding web app can be found at [http://metakey.meteorapp.com](http://
 
 As you can probably see from the video above, the design of the box was not perfect, as the key got stuck in in the chamber (it was too wide to simply rest on the servo motor). Our impromptu "valve" was also not perfect, and would allow the key to slide out sometimes when we put it in. However, I believe these problems could be fixed fairly easily, given a bit more time to work on and perfect this project.
 
-### Insights for the future
+### For the future
 
 - Fix the design to prevent key getting stuck (either make chamber deeper or restrict the key to be in one orientation)
 - Adjust the latch so key cannot slide out when putting it in - make it flush with the front and back of chamber
 - Change how the Raspberry Pi talks to the server - rather than constant pinging, use sockets or something similar to keep connection open
 - Figure out how to stop the servo motor when it is not being used
+- Add user accounts and permission, with different lockboxes registered to each account.
 
 [metakey-1]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metakey/metakey-1.jpg
 [metakey-2]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metakey/metakey-2.jpg
