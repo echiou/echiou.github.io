@@ -31,7 +31,7 @@ When I returned to school, I asked [a friend](https://www.linkedin.com/in/annesl
 
 ![][rnp-2]
 
-With my newfound knowledge about the cosmetic industry, I began thinking of various solutions, settling on a fairly simple one - a "sampler" of sorts, with small amounts of nail poish packaged together in seasonal or trendy color combinations. I then set off to make a website for it, designing each of the images in Adobe Illustrator, with some basic HTML and CSS, and minimal javascript. The final site can be found [here](http://echiou.com/reimagining-nail-polish).
+With my newfound knowledge about the cosmetic industry, I began thinking of various solutions, settling on a fairly simple one - a "sampler" of sorts, with small amounts of nail poish packaged together in seasonal or trendy color combinations. I then set off to make a website for it, with some basic HTML and CSS and minimal javascript, designing the images in Adobe Illustrator. The final site can be found [here](http://echiou.com/reimagining-nail-polish).
 
 ##Final Thoughts
 
