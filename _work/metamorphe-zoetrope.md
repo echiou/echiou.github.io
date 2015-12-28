@@ -16,7 +16,7 @@ Ethan Chiou & Tim Campbell
 
 <a href="https://github.com/echiou/metamorphe-zoetrope">View on Github <span class="fa fa-long-arrow-right"></span></a>
 
-A record player modified to demonstrate an application of [Cesar Torres](http://cearto.com)' [MetaMorphe](http://metamorphe.cearto.com/), namely the ability to interpolate keyframes from programatically defined changes in 3D models. The record player, which has been modified to rotate at around three times its built-in speeds (~99 and 135, instead of 33 and 45 rpm, respectively), has either 15 or 10   models placed on the turntable, and a flash is fired at a corresponding rate to produce the illusion of animation.
+A record player modified to demonstrate an application of [César Torres](http://cearto.com)' [MetaMorphe](http://metamorphe.cearto.com/), namely the ability to interpolate keyframes from programatically defined changes in 3D models. The record player, which has been modified to rotate at around three times its built-in speeds (~99 and 135, instead of 33 and 45 rpm, respectively), has either 15 or 10   models placed on the turntable, and a flash is fired at a corresponding rate to produce the illusion of animation.
 
 ---
 
