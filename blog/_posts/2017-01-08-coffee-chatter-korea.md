@@ -16,10 +16,10 @@ I recently had the pleasure of visiting Seoul, Korea as the final trip of my sem
 In my head, several things converge to bring about the types of cafes I saw in Korea:
 
   - Children tend to live with their parents before marriage. (Apology #1 if this claim is incorrect or offensive)
-  - Korean culture has heavy emphasis on image. (And... Apology # 2)
+  - Korean culture has heavy emphasis on image. (And... apology #2)
   - Dating culture is quite strong. I won't claim to know anything more about this aside from what I was told.
 
-Naturally, this doesn't include the use of cafes for non-dating purposes, but the gist is the same: people want to meet up for dates or meetings, but it is more difficult at homes where others live and can be disturbed. Therefore, an external location (e.g. a cafe) is picked, preferably one which will not reflect poorly on all parties involved. Therefore, cafes are not only expected serve good coffee, but also look good and be viable meeting spots. And thus, we have specialty coffee being served in aesthetically pleasing spaces.
+Naturally, this doesn't include the use of cafes for non-dating purposes, but the gist is the same: people want to meet up for dates or meetings, but this is more difficult at homes where others live and can be disturbed. Therefore, an external location (e.g. a cafe) is picked, preferably one which will not reflect poorly on all parties involved. Therefore, cafes are not only expected serve good coffee, but also look good and be viable meeting spots. And thus, we have specialty coffee being served in aesthetically pleasing spaces.
 
 As such, the first thing I noticed when walking into cafes was the how they looked. Cafes in Seoul clearly place a lot of weight on how they look and feel, of course as one should, but this was almost to a obsessive extent - one looked so sterile that it seemed to have been designed for Instagram. Another (pictures below) had, in my opinion, the most meticulous branding I've seen for a cafe. Of course, American roasteries and cafes care how they look and feel, but this seemed on another level, a whole different way of tying together coffee and design.
 
@@ -49,7 +49,7 @@ Next was [Anthracite Coffee Roasters](http://www.anthracitecoffee.com). They had
 
 ![][Anthracite-2]
 
-As I mentioned before, cafes are viewed as meeting spaces, and thus seating and meeting space is limited. To remedy some of this, some cafes offer 1-2000 won discounts if you order your coffee to-go instead of for drinking there. Anthracite was one of those, and so I got my favorite cup of coffee in Korea (I forget exactly what it was, but I want to say it was an Ethiopian) for only 3000 won (~2.50 USD).
+As I mentioned before, cafes are viewed as meeting spaces, and thus seating space is limited. To help remedy this, some cafes offer 1-2000 won discounts if you order your coffee to-go instead of for drinking there. Anthracite was one of those, and so I got my favorite cup of coffee in Korea (I forget exactly what it was, but I want to say it was an Ethiopian) for only 3000 won (~2.50 USD).
 
 ![][Anthracite-3]
 
