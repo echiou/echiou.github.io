@@ -17,9 +17,9 @@ In my head, several things converge to bring about the types of cafes I saw in K
 
   - Children tend to live with their parents before marriage. (Apology #1 if this claim is incorrect or offensive)
   - Korean culture has heavy emphasis on image. (And... apology #2)
-  - Dating culture is quite strong. I won't claim to know anything more about this aside from what I was told.
+  - There is somewhat of a dating culture.
 
-Naturally, this doesn't include the use of cafes for non-dating purposes, but the gist is the same: people want to meet up for dates or meetings, but this is more difficult at homes where others live and can be disturbed. Therefore, an external location (e.g. a cafe) is picked, preferably one which will not reflect poorly on all parties involved. Therefore, cafes are not only expected serve good coffee, but also look good and be viable meeting spots. And thus, we have specialty coffee being served in aesthetically pleasing spaces.
+Naturally, this doesn't include the use of cafes for non-dating purposes, but the gist is the same: people want to meet up for dates or meetings, but this is more difficult at homes where others live and can be disturbed. An external location (e.g. a cafe) is picked, preferably one which will not reflect poorly on all parties involved. Therefore, cafes are not only expected serve good coffee, but also look good and be viable meeting spots. And thus, we have specialty coffee being served in aesthetically pleasing spaces.
 
 As such, the first thing I noticed when walking into cafes was the how they looked. Cafes in Seoul clearly place a lot of weight on how they look and feel, of course as one should, but this was almost to a obsessive extent - one looked so sterile that it seemed to have been designed for Instagram. Another (pictures below) had, in my opinion, the most meticulous branding I've seen for a cafe. Of course, American roasteries and cafes care how they look and feel, but this seemed on another level, a whole different way of tying together coffee and design.
 
