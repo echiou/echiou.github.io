@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Coffee Chatter: Stumptown Coffee Roasters"
-date:   2017-01-16 08:00:00
+date:   2017-01-17 22:00:00
 categories: coffeechatter
 ---
 
