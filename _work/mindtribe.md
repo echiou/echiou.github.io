@@ -7,4 +7,10 @@ image: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/W
 category: hardware
 context: research
 ---
-### In Progress
+![][mindtribe-1]
+
+*Photo taken by my good friend [Michael Choi](http://mechachoi.com).*
+
+Still in progress!
+
+[mindtribe-1]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/MT/Nightlight.png

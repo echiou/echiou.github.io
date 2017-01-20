@@ -84,9 +84,3 @@ On the other hand, the timing and orientation scheme for the on-board accelerome
 [octagon-1]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/IDD/Play-Octagon-1.jpg
 [octagon-2]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/IDD/Play-Octagon-2.jpg
 [octagon-3]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/IDD/Play-Octagon-3.jpg
-<!-- [idd-1]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/IDD/TiltBox-1.jpg
-[idd-2]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/IDD/TiltBox-2.jpg
-[idd-3]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/IDD/UChord-1.jpg
-[idd-4]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/IDD/UChord-2.jpg
-[idd-5]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/IDD/UChord-3.jpg
-[idd-6]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/IDD/UChord-Sheet-Music.jpg -->
