@@ -3,7 +3,7 @@ layout: work
 title: Play Octagon
 dates: Fall 2015
 position: 4
-image: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/IDD/Play-Octagon-1.jpg
+image: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/IDD/Play-Octagon-1.jpg
 category: hardware
 context: coursework
 ---

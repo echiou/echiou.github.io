@@ -3,7 +3,7 @@ layout: work
 title: Metamorphe Zoetrope
 dates: Summer 2015
 position: 3
-image: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/Metamorphe-Zoetrope-1.jpg
+image: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-1.jpg
 category: hardware
 context: research
 ---
