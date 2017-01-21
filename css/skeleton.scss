@@ -41,9 +41,11 @@ $bp-larger-than-desktophd : "min-width: 1200px" !default;
 // Colors
 $light-grey: #efefef !default;
 $dark-grey: #3d3d3d !default;
-$secondary-color: lighten($dark-grey, 33%) !default;
+$secondary-color: lighten($dark-grey, 10%) !default;
+$secondary-color-xlight: lighten($dark-grey, 40%) !default;
 $primary-color: $secondary-color !default;
 $link-color: $primary-color !default;
+$plink-color: $secondary-color-xlight !default;
 $border-color: #bbb !default;
 $font-color: $dark-grey !default;
 
@@ -233,6 +235,10 @@ a {
   &:hover {
     color: $dark-grey;
   }
+}
+
+p > a {
+  color: $plink-color;
 }
 
 // Buttons
