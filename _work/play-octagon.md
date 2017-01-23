@@ -81,6 +81,6 @@ On the other hand, the timing and orientation scheme for the on-board accelerome
 - Implement some sort of system where onboarding guidance is required before play
 - Test a few more angles/shapes for a more intuitive mapping
 
-[octagon-1]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/IDD/Play-Octagon-1.jpg
-[octagon-2]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/IDD/Play-Octagon-2.jpg
-[octagon-3]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/IDD/Play-Octagon-3.jpg
+[octagon-1]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/IDD/Play-Octagon-1.jpg
+[octagon-2]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/IDD/Play-Octagon-2.jpg
+[octagon-3]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/IDD/Play-Octagon-3.jpg

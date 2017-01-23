@@ -49,7 +49,7 @@ When approached by Cesar to make a demonstration for MetaMorphe, Tim had the ide
 ###Built-In Buttons
 
 <div class="double-photo">
-  <img class="double-left" src="https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/metamorphe-zoetrope-3.jpg"><img class="double-right" src="https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/metamorphe-zoetrope-4.jpg">
+  <img class="double-left" src="https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-3.jpg"><img class="double-right" src="https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-4.jpg">
 </div>
 
 On the left side, there is a power button, as well as options for speed, which were intially at 33 and 45 rpm. We initially wanted to display the animation at around 24 frames per second (fps). With 10 frames of animation, a 45 rpm turntable would display at 7.5 fps. Therefore, we calculated a necessary speed of 144 to 150 rpm for 10 frames at 24 fps. Upon seeing the different speeds, we then calculated the proportioned number of frames for the 33 rpm setting and also implemented a 15 frame plate. On the right side, there is a start/stop button for the turntable, as well as pitch control, which alters the rotational speed of the turntable slightly. There is also the yellow button I added in to turn the strobe light on and off.
@@ -81,7 +81,7 @@ In order to find the speed at which the turntable was spinning (and thus at what
 ###Different Built-In Speeds
 
 <div class="double-photo">
-  <img class="double-left" src="https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/Metamorphe-Zoetrope-12.jpg"><img class="double-right" src="https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/Metamorphe-Zoetrope-13.jpg">
+  <img class="double-left" src="https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-12.jpg"><img class="double-right" src="https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-13.jpg">
 </div>
 
 The record player also came with two default speeds, the faster of which we used for 10 frame animations (and would thus fire the flash at around 30 fps). We also decided to take advantage of the slower speed and use it for 15 frame animations. To do this, we had to be able to detect at what rate the turntable was spinning.
@@ -108,19 +108,19 @@ The perma-proto board contains wires to the arduino, as well as wires to the swi
 
 ![][metamorphe-zoetrope-16]
 
-[metamorphe-zoetrope-1]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/Metamorphe-Zoetrope-1.jpg
-[metamorphe-zoetrope-2]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/metamorphe-zoetrope-2.jpg
-[metamorphe-zoetrope-3]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/metamorphe-zoetrope-3.jpg
-[metamorphe-zoetrope-4]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/metamorphe-zoetrope-4.jpg
-[metamorphe-zoetrope-5]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/Metamorphe-Zoetrope-5.jpg
-[metamorphe-zoetrope-6]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/Metamorphe-Zoetrope-6.jpg
-[metamorphe-zoetrope-7]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/Metamorphe-Zoetrope-7.jpg
-[metamorphe-zoetrope-8]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/Metamorphe-Zoetrope-8.jpg
-[metamorphe-zoetrope-9]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/Metamorphe-Zoetrope-9.jpg
-[metamorphe-zoetrope-10]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/Metamorphe-Zoetrope-10.jpg
-[metamorphe-zoetrope-11]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/Metamorphe-Zoetrope-11.jpg
-[metamorphe-zoetrope-12]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/Metamorphe-Zoetrope-12.jpg
-[metamorphe-zoetrope-13]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/Metamorphe-Zoetrope-13.jpg
+[metamorphe-zoetrope-1]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-1.jpg
+[metamorphe-zoetrope-2]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-2.jpg
+[metamorphe-zoetrope-3]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-3.jpg
+[metamorphe-zoetrope-4]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-4.jpg
+[metamorphe-zoetrope-5]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-5.jpg
+[metamorphe-zoetrope-6]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-6.jpg
+[metamorphe-zoetrope-7]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-7.jpg
+[metamorphe-zoetrope-8]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-8.jpg
+[metamorphe-zoetrope-9]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-9.jpg
+[metamorphe-zoetrope-10]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-10.jpg
+[metamorphe-zoetrope-11]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-11.jpg
+[metamorphe-zoetrope-12]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-12.jpg
+[metamorphe-zoetrope-13]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-13.jpg
 [metamorphe-zoetrope-14]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/August-20/August-20-11.jpg
-[metamorphe-zoetrope-15]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/Metamorphe-Zoetrope-Opening-Ceremony.jpg
-[metamorphe-zoetrope-16]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/metamorphe-zoetrope/Metamorphe-Zoetrope-Poster.jpg
+[metamorphe-zoetrope-15]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-Opening-Ceremony.jpg
+[metamorphe-zoetrope-16]: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-Poster.jpg
