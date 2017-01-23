@@ -17,7 +17,7 @@ Assignment for Interactive Device Design (CS294-84/ME290U), a graduate-level Com
 
 **Challenge:** Create a game controller that interfaces with an existing computer game.
 
-##Table of Contents
+## Table of Contents
 
 [Octagon](#octagon)
 /
@@ -31,21 +31,21 @@ Assignment for Interactive Device Design (CS294-84/ME290U), a graduate-level Com
 /
 [Final Thoughts](#final-thoughts)
 
-##Octagon
+## Octagon
 
 <div class="double-photo">
-  <img class="double-left" src="https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/IDD/Play-Octagon-4.png"><img class="double-right" src="https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/work/IDD/Play-Octagon-5.png">
+  <img class="double-left" src="https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/IDD/Play-Octagon-4.png"><img class="double-right" src="https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/IDD/Play-Octagon-5.png">
 </div>
 
 For this assignment, my partner and I decided to make a controller for [Octagon](http://www.octagongame.com), one of the most popular "Free" games in the Mac App Store, and for good reason - it features a simple control scheme, simplistic yet stunning visuals, and a steep skill curve (easy to pick up, hard to perfect). Players take the place of an octagonal avatar, traversing their way through an angular obstacle course.
 
-##Design Approach
+## Design Approach
 
 ![][octagon-3]
 
 From there, we went through several iterations of relevant control schemes. We started with an octagonal controller that a player could hold and rotate (to move left and right) or flick upwards (to jump), but this didn't seem to map well with the game's mentality, where it almost seems like the environment changes direction and orientation, rather than the character. Because of this, we decided to switch gears and instead created a controller which would lay flat on the table, that the player could tilt back and forth to turn the right and left, and lift his hands off from to jump. The panels on which the player would place his hands are lightly angled (not at 45 degree angles, for ergonomic purposes), emulating the course’s left and right turns.
 
-##Controller Design
+## Controller Design
 
 ![][octagon-2]
 
@@ -57,7 +57,7 @@ Our controller uses both discrete and continuous inputs for gameplay. We used th
 
 On the other hand, the timing and orientation scheme for the on-board accelerometer was more complex. Although the game itself only uses right and left arrows for control, we also had to implement controls for when the user presses multiple buttons in a row, or when they hold down the buttons for faster movement. We took advantage of the continuous sensor input and created a continuous control timing and orientation scheme for when the player wants to move more than one step at a time, implementing a delay between each orientation detection loop, and decreasing the delay if the user stayed in the same orientation. This makes it much easier for the user to, for example, move 4 steps at a time.
 
-##Video
+## Video
 
 <div class="embed-video">
   <iframe src="https://www.youtube-nocookie.com/embed/tYkRtAXRfbg?rel=0&amp;autoplay=0&amp;showinfo=0&amp;vq=hd720" frameborder="0" allowfullscreen></iframe>
