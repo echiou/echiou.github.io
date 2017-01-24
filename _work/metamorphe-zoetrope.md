@@ -24,9 +24,7 @@ Student Presenter at [Jacobs Hall](http://jacobsinstitute.berkeley.edu/) Opening
 
 ---
 
-![][metamorphe-zoetrope-1]
-
-##Table of Contents
+### Table of Contents
 
 [What We Started With](#what-we-started-with)
 /
@@ -40,13 +38,15 @@ Student Presenter at [Jacobs Hall](http://jacobsinstitute.berkeley.edu/) Opening
 /
 [Jacobs Hall Opening Ceremony Pictures](#jacobs-hall-opening-ceremony-pictures)
 
-##What We Started With
+![][metamorphe-zoetrope-1]
+
+### What We Started With
 
 ![][metamorphe-zoetrope-11]
 
 When approached by Cesar to make a demonstration for MetaMorphe, Tim had the idea of making a zoetrobe or stroboscope to present the potential of MetaMorphe to produce keyframes in animation. We decided on a record player because of the already-implemented rotational motion and the size of the turntable. We found an inexpensive, used record player on Craigslist that I picked up in Oakland, and took it apart to see how it worked, and how we could modify it to do what we wanted.
 
-###Built-In Buttons
+#### Built-In Buttons
 
 <div class="double-photo">
   <img class="double-left" src="https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-3.jpg"><img class="double-right" src="https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-4.jpg">
@@ -58,13 +58,13 @@ On the left side, there is a power button, as well as options for speed, which w
 
 Looking at the internals of the record player, we found an analog circuit board with a 12v regulator, which was coincidental because Tim had a 12v xenon flash on hand, and so we could power the flash without an additional power source. The 12V regulator was speced to handle steady current output of 1A, which we estimated to be enough current to power both the motor and the strobe.
 
-##Cog
+### Cog
 
 ![][metamorphe-zoetrope-5]
 
 Because we wanted to spin the turntable at three times its default speeds, we decided that instead of replacing the motor, we could simply fit a larger pully over the existing one, which would increase the speed of the larger turntable. Tim measured the diameter of the existing pulley and then tripled its size on the 3D printed retrofit. The [Solidworks file](https://github.com/echiou/metamorphe-zoetrope/blob/master/stroboscope-cog-rev1.SLDPRT) is in the repository. An good explanation of crowned pulleys can be found on [woodgears.ca](http://woodgears.ca).
 
-##Flash
+### Flash
 
 Because of the limitations of the record player's power supply, we needed a way to turn the strobe off as the turntable was accelerating. To do this, we simply added a button on the side of the casing connected to the Arduino controlling the flash.
 
@@ -74,11 +74,11 @@ The strobe light is an on-demand power strobe. It charges an 800V capacitor from
 
 In addition to powering the strobe light with the record player's power supply and controlling it with the Arduino, we had to position it illuminate the animation. We did this by replacing the record player's needle with a laser cut mount for the flash.
 
-##Speed Control
+### Speed Control
 
 In order to find the speed at which the turntable was spinning (and thus at what rate to fire the strobe light), we initially had the idea of putting a Reed switch and a magnet under the turntable find the rotations per minute (and actually cut a hole in the casing and hot glued the switch in). Then we settled on a elegant solution: instead of adding lots of logic and components, we could use the built-in pitch control to adjust the speed of the turntable ever so slightly while we fired the flash at a constant rate. This required no additional electronics or modification.
 
-###Different Built-In Speeds
+#### Different Built-In Speeds
 
 <div class="double-photo">
   <img class="double-left" src="https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-12.jpg"><img class="double-right" src="https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-13.jpg">
@@ -90,7 +90,7 @@ The record player also came with two default speeds, the faster of which we used
 
 Our intuition was to try to read the voltage from the LEDs indicating at which speed the turntable was turning, but the voltages which we were getting were confusing (and in the process we managed to burn out several LEDs as well as an Arduino). Instead of dealing with the same switch as the record player's circuit board, we chose an unused one, and simply read the signal from there. The unused switch was connected mechanically but not electrically to the other switch, thus saving the confusing voltage.
 
-##Circuitry and Programming
+### Circuitry and Programming
 
 ![][metamorphe-zoetrope-9]
 
@@ -100,7 +100,7 @@ My Arduino code can be found [here](https://github.com/echiou/metamorphe-zoetrop
 
 The perma-proto board contains wires to the arduino, as well as wires to the switch detecting the current turntable speed, the button to turn the strobe on and off, and the strobe itself. There is also a switch connected to it that we used to turn the strobe on and off before putting the button in. We hot-glued stand-offs to the underside of the top case and then screwed the Arduino and protoboard into them.
 
-##Jacobs Hall Opening Ceremony Pictures
+### Jacobs Hall Opening Ceremony Pictures
 
 ![][metamorphe-zoetrope-14]
 
