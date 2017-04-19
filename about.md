@@ -6,7 +6,7 @@ permalink: /about/
 
 ![][about-header]
 
-## Hello there. I'm Ethan, an aspiring world creator.
+## Hello there. I'm Ethan.
 
 I am currently a student at the [University of California, Berkeley](http://www.berkeley.edu/), studying [Electrical Engineering & Computer Sciences](http://www.eecs.berkeley.edu/). More specifically, I enjoy the field of [Human-Computer Interaction](https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction), studying and designing both physical and digital interfaces to be used by people.
 
