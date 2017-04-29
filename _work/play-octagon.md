@@ -13,7 +13,7 @@ Ethan Chiou & [Diane Wang](http://diane.io)
 
 <a href="https://github.com/dianecw/idd-play-octagon">View on Github <span class="fa fa-long-arrow-right"></span></a>
 
-Assignment for Interactive Device Design (CS294-84/ME290U), a graduate-level Computer Science course at UC Berkeley (cross-listed under Mechanical Engineering) that teaches concepts and skills related to designing, prototyping, and fabricating interactive devices.
+Assignment for Interactive Device Design, a graduate-level Computer Science course at UC Berkeley that teaches concepts and skills related to designing, prototyping, and fabricating interactive devices.
 
 **Challenge:** Create a game controller that interfaces with an existing computer game.
 
@@ -49,7 +49,7 @@ From there, we went through several iterations of relevant control schemes. We s
 
 ![][octagon-2]
 
-To construct the controller, we used laser cut wood and acrylic, making panels to connect to a pair of rails, which would provide the light angling. A small open-face enclosure is located on the bottom, to which we hot-glued standoffs to attach the FRDM-LR25Z, as well as attached a capacitive touch sensor breakout. This capacitive touch sensor detects when users place their hands on the left and right panels, as well as when they press the switch to begin the game. We sense orientation of the controller using the onboard accelerometer, detecting left and right tilts to translate them to left and right inputs.
+To construct the controller, we used laser cut wood and acrylic, making panels to connect to a pair of rails, which would provide the light angling. A small open-face enclosure is located on the bottom, to which we glued standoffs to attach the FRDM-LR25Z, as well as attached a capacitive touch sensor breakout. This capacitive touch sensor detects when users place their hands on the left and right panels, as well as when they press the switch to begin the game. We sense orientation of the controller using the onboard accelerometer, detecting left and right tilts to translate them to left and right inputs.
 
 ### Software
 
