@@ -17,6 +17,30 @@ window.onload = function(){
     return false;
   });
 
+  $( "#index-photos" )
+  .mouseenter(function() {
+    $( "#index-pic" ).css("background-image", "url\(\"/images/play.jpg\"\)");
+  })
+  .mouseleave(function() {
+    // $( "#index-pic" ).css("background-image", "none");
+  });
+
+  $( "#index-mindtribe" )
+  .mouseenter(function() {
+    $( "#index-pic" ).css("background-image", "url\(\"/images/mindtribe.jpg\"\)");
+  })
+  .mouseleave(function() {
+    // $( "#index-pic" ).css("background-image", "none");
+  });
+
+  $( "#index-hci" )
+  .mouseenter(function() {
+    $( "#index-pic" ).css("background-image", "url\(\"/images/hci.jpg\"\)");
+  })
+  .mouseleave(function() {
+    // $( "#index-pic" ).css("background-image", "none");
+  });
+
   $(function() {
       $("#contact-form").submit(function(e) {
         e.preventDefault();

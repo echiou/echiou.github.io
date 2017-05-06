@@ -1,8 +1,9 @@
----
+<!-- ---
 layout: page
 title: Contact Me
 permalink: /contact/
----
+--- -->
+
 Have a project you would like to work on with me? Want to have a conversation about life? Or just grab some coffee?
 
 ## Let's talk.
