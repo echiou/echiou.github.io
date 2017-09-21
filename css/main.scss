@@ -37,8 +37,8 @@ $plain-transition: all .25s ease-in-out;
 
 // Header
 //––––––––––––––––––––––––––––––––––––––––––––––––––
+
 .navbar {
-  /* center the element */
   right: 0;
   left: 0;
   margin-right: auto;
@@ -65,11 +65,11 @@ $plain-transition: all .25s ease-in-out;
 
 .navbar-logo-holder {
   text-transform: uppercase;
-  clear:both;
+  clear: both;
   height: 6rem;
 }
 
-.navbar-logo, .index-navbar-logo {
+.navbar-logo {
   height: 100%;
   display: inline-block;
 }
@@ -81,21 +81,6 @@ $plain-transition: all .25s ease-in-out;
   -ms-transition: $plain-transition; /* IE10 is actually unprefixed */
   -o-transition: $plain-transition;
   transition: $plain-transition;
-}
-
-.index-navbar-logo path {
-  fill: $dark-grey;
-  // fill: lighten($light-grey, 5%);
-  -webkit-transition: $plain-transition;
-  -moz-transition: $plain-transition;
-  -ms-transition: $plain-transition; /* IE10 is actually unprefixed */
-  -o-transition: $plain-transition;
-  transition: $plain-transition;
-}
-
-.index-navbar-logo:hover path {
-  fill: lighten($light-grey, 5%);
-  // fill: $dark-grey;
 }
 
 #index-pic-container {

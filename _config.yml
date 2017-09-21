@@ -7,7 +7,7 @@ github_username: echiou
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:title/
 
 paginate: 1
 pagination_path: "/blog"
@@ -18,3 +18,7 @@ collections:
   work:
     output: true
     permalink: /work/:path/
+
+# plugins
+plugins:
+  - jekyll-paginate
