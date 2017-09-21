@@ -1,17 +1,29 @@
 <header class="site-header">
 
-  <div class="container navbar">
+    {% if page.url == "/" %}
+      <div class="container navbar index-navbar">
+    {% else %}
+      <div class="container navbar">
+    {% endif %}
     <div class="row navbar-content">
       <div class="twelve columns">
         <div class="u-center">
           <ul class="navbar-list">
-            <li class="navbar-item navbar-text"><a class="header-play" href="/blog">Play</a></li>
-            <li class="navbar-item">
-              <div class="navbar-logo-holder">
-                {% include /svg/logo.svg %}
-              </div>
-            </li>
-            <li class="navbar-item navbar-text"><a class="header-work" href="/work">Work</a></li>
+            {% if page.url == "/" %}
+              <li class="navbar-item">
+                <div class="navbar-logo-holder">
+                  {% include /svg/logo.svg %}
+                </div>
+              </li>
+            {% else %}
+              <li class="navbar-item navbar-text"><a class="header-play" href="/blog">Play</a></li>
+              <li class="navbar-item">
+                <div class="navbar-logo-holder">
+                  {% include /svg/logo.svg %}
+                </div>
+              </li>
+              <li class="navbar-item navbar-text"><a class="header-work" href="/work">Work</a></li>
+            {% endif %}
           </ul>
         </div>
       </div>
