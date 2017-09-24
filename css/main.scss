@@ -689,12 +689,12 @@ p > img {
   position:fixed;
   bottom:2rem;
   right:2rem;
-  display:none;
-  -webkit-transition: color .5s ease-in-out;
-  -moz-transition: color .5s ease-in-out;
-  -ms-transition: color .5s ease-in-out; /* IE10 is actually unprefixed */
-  -o-transition: color .5s ease-in-out;
-  transition: color .5s ease-in-out;
+  opacity: 0;
+  -webkit-transition: $plain-transition;
+  -moz-transition: $plain-transition;
+  -ms-transition: $plain-transition; /* IE10 is actually unprefixed */
+  -o-transition: $plain-transition;
+  transition: $plain-transition;
 }
 
 @media (max-width: 750px) {
