@@ -11,8 +11,8 @@ $dark-grey: #3d3d3d !default;
 $secondary-color: lighten($dark-grey, 10%) !default;
 $secondary-color-xlight: lighten($dark-grey, 40%) !default;
 $primary-color: $secondary-color !default;
-$link-color: $primary-color !default;
-$plink-color: $secondary-color-xlight !default;
+$link-color: lighten($dark-grey, 10%) !default;
+$plink-color: lighten($dark-grey, 40%) !default;
 $border-color: #bbb !default;
 $font-color: $dark-grey !default;
 
@@ -34,6 +34,14 @@ $column-margin: 4% !default; // space between columns
 
 // Transitions
 $plain-transition: all .25s ease-in-out;
+
+@mixin transition($transition...) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -o-transition: $transition;
+  -webkit-transition: $transition;
+  transition: $transition;
+}
 
 // Misc
 $global-radius: 4px !default;

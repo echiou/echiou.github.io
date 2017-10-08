@@ -188,10 +188,13 @@ p {
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 
 a {
+  text-decoration: none;
   color: $link-color;
   &:hover {
     color: $dark-grey;
   }
+
+  @include transition($plain-transition);
 }
 
 p > a, em > a {
@@ -221,11 +224,8 @@ button {
   border: 1px solid $border-color;
   cursor: pointer;
   box-sizing: border-box;
-  -webkit-transition: $plain-transition;
-  -moz-transition: $plain-transition;
-  -ms-transition: $plain-transition; /* IE10 is actually unprefixed */
-  -o-transition: $plain-transition;
-  transition: $plain-transition;
+
+  @include transition($plain-transition);
 }
 
 input {

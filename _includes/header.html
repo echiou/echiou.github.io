@@ -1,13 +1,12 @@
 <header class="site-header">
 
-    {% if page.url == "/" %}
-      <div class="container navbar index-navbar">
-    {% else %}
-      <div class="container navbar">
-    {% endif %}
-    <div class="row navbar-content">
-      <div class="twelve columns">
-        <div class="u-center">
+  {% if page.url == "/" %}
+    <div class="container navbar index-navbar">
+  {% else %}
+    <div class="container navbar">
+  {% endif %}
+    <div class="row">
+      <div class="twelve columns u-center navbar-content">
           <ul class="navbar-list">
             {% if page.url == "/" %}
               <li class="navbar-item">
