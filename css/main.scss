@@ -7,11 +7,22 @@
 @import "normalize";
 @import "skeleton";
 
+// Table of contents
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+//- Header
+//- Index Page
+//- Posts
+//- Work Pages
+//- Footer
+
 // Header
+//––––––––––––––––––––––––––––––––––––––––––––––––––
 
 .navbar {
   font-family: $font-family-header;
   text-align: center;
+  text-transform: lowercase;
+  letter-spacing: .1rem;
 }
 
 .index-navbar {
@@ -81,15 +92,15 @@
   }
 
   .navbar-list {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 
-  .navbar-list-holder{
+  .navbar-list-holder {
     text-align: right;
   }
 }
 
-.scrollToTop{
+.scroll-to-top {
   text-align: center;
   text-decoration: none;
   position:fixed;
@@ -104,7 +115,7 @@
 }
 
 @media (#{$bp-larger-than-tablet}) {
-  .scrollToTop {
+  .scroll-to-top {
     height: auto;
     overflow: visible;
     visibility: visible;
@@ -112,6 +123,7 @@
 }
 
 // Index Page
+//––––––––––––––––––––––––––––––––––––––––––––––––––
 
 #index-pic-container {
   position: relative;
@@ -174,6 +186,7 @@
 }
 
 // Posts
+//––––––––––––––––––––––––––––––––––––––––––––––––––
 
 img {
   width: 100%;
@@ -188,7 +201,8 @@ p > img {
 }
 
 .blog-header, .work-header {
-  text-transform: uppercase;
+  text-transform: lowercase;
+  letter-spacing: .3rem;
 }
 
 .post-title, .post-meta {
@@ -258,7 +272,8 @@ p > img {
     height: 100%;
 }
 
-// Work
+// Work Pages
+//––––––––––––––––––––––––––––––––––––––––––––––––––
 
 .work-posts {
   display: inline-block;
@@ -385,13 +400,12 @@ p > img {
 }
 
 // Footer
+//––––––––––––––––––––––––––––––––––––––––––––––––––
 
 .footer {
-  color: $dark-grey;
   font-size: 1.2rem;
   margin-top: 1.2rem;
   margin-bottom: 1.2rem;
-  flex: none;
 }
 
 .footer-copyright {
@@ -404,9 +418,7 @@ p > img {
 }
 
 .footer-item {
-  position: relative;
   display: inline;
-  margin-bottom: 0;
   margin-right: 0.6rem;
   margin-left: 0.6rem;
 }
