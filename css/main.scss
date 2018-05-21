@@ -21,9 +21,27 @@
 
 .navbar {
   font-family: $font-family-header;
-  text-align: center;
-  text-transform: lowercase;
+  font-size: 2rem;
   letter-spacing: .1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.navbar > a {
+  color: $dark-grey;
+}
+
+.navbar-left {
+  display: inline-block;
+}
+
+.navbar-right {
+  float: right;
+  display: inline-block;
+}
+
+.navbar-cur-page {
+  border-bottom: 1.5px solid $link-color;
 }
 
 .index-navbar {
@@ -33,54 +51,34 @@
   z-index: 1;
 }
 
-.navbar-content {
-  line-height: 0;
-}
-
 .navbar-list {
-  margin-top: 3rem;
-  margin-bottom: 0;
+  margin-bottom: 0rem;
   list-style: none;
   display: inline-block;
 }
 
 .navbar-item {
   margin-bottom: 0;
-  margin-left: 2rem;
-  margin-right: 2rem;
   float: right;
   line-height: normal;
 }
 
-.navbar-text {
-  font-size: 1.6rem;
-  margin-top: 2rem;
-  width: 5rem;
-}
-
-.navbar-text > a {
-  color: $dark-grey;
-}
-
-.navbar-logo-holder {
-  height: 6rem;
-}
-
-.navbar-logo {
-  height: 100%;
-  display: inline-block;
-}
-
-.navbar-logo path {
+.navbar-index {
   @include transition($plain-transition);
 }
 
-.navbar-logo:hover .e {
-  fill: $work-color;
+.e, .c {
+  @include transition($plain-transition);
 }
 
-.navbar-logo:hover .c {
-  fill: $play-color;
+.navbar-index:hover .e {
+  @include transition($plain-transition);
+  color: $work-color;
+}
+
+.navbar-index:hover .c {
+  @include transition($plain-transition);
+  color: $play-color;
 }
 
 .header-play:hover {
@@ -92,16 +90,8 @@
 }
 
 @media (#{$bp-larger-than-phablet}) {
-  .navbar {
-    text-align: left;
-  }
-
-  .navbar-list {
-    margin-bottom: 3rem;
-  }
-
   .navbar-list-holder {
-    text-align: right;
+    text-align: left;
   }
 }
 
@@ -189,17 +179,17 @@
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 
 .blog-header, .work-header {
-  text-transform: lowercase;
-  letter-spacing: .3rem;
+  letter-spacing: .1rem;
 }
 
 .post-title, .post-meta {
   color: $dark-grey !important;
 }
 
-.post-header, .blog-header, .work-header {
+.post-header {
   text-align: center;
   color: $dark-grey;
+  padding-bottom: 1rem;
 }
 
 .blog-header > a, .work-header > a {
@@ -212,6 +202,10 @@
 
 .work-header > a:hover {
   color: $work-color;
+}
+
+.back {
+  text-align: left;
 }
 
 .blog-desc {
