@@ -3,21 +3,76 @@
 # ensure a single source of truth
 ---
 
-@import "variables";
-@import "normalize";
 @import "skeleton";
 
-// Table of contents
-//––––––––––––––––––––––––––––––––––––––––––––––––––
+// –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// Table of contents –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// - Universal
 // - Header
 // - Index Page
 // - Posts
 // - Work Pages
 // - Footer
-// - Utilities / Universal
+// - Utilities
 
-// Header
-//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+// –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// Universal –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.play-color, .play a {
+  color: $play-color;
+}
+
+.work-color, .work a {
+  color: $work-color;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+a {
+  &:hover {
+    color: $font-color;
+  }
+
+  text-decoration: none;
+  @include transition($plain-transition);
+}
+
+.fill-height-or-more {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.page-content {
+  display: inline-block;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1 0 auto;
+}
+
+.site-header, .site-footer {
+  flex: none; /* 2 */
+}
+
+
+
+// –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// Header ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 .navbar {
   font-family: $font-family-header;
@@ -27,11 +82,11 @@
   padding-bottom: 2rem;
 }
 
-.navbar > a {
-  color: $dark-grey;
+.navbar a {
+  color: $font-color;
 }
 
-.navbar-left {
+.navbar-left, .navbar-index {
   display: inline-block;
 }
 
@@ -41,7 +96,7 @@
 }
 
 .navbar-cur-page {
-  border-bottom: 1.5px solid $link-color;
+  border-bottom: 1.5px solid $font-color;
 }
 
 .index-navbar {
@@ -61,10 +116,6 @@
   margin-bottom: 0;
   float: right;
   line-height: normal;
-}
-
-.navbar-index {
-  @include transition($plain-transition);
 }
 
 .e, .c {
@@ -89,12 +140,6 @@
   color: $work-color;
 }
 
-@media (#{$bp-larger-than-phablet}) {
-  .navbar-list-holder {
-    text-align: left;
-  }
-}
-
 .scroll-to-top {
   text-align: center;
   text-decoration: none;
@@ -117,8 +162,11 @@
   }
 }
 
-// Index Page
-//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+// –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// Index Page ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 .index-background, .index-content {
   position: absolute;
@@ -298,11 +346,11 @@
 }
 
 .work-icon path {
-  fill: $work-color;
+  // fill: $work-color;
 }
 
 .work-icon circle, .work-icon rect, .work-icon polygon, .work-icon line, .work-icon polyline {
-  stroke: $work-color;
+  // stroke: $work-color;
 }
 
 .white-overlay {
@@ -385,41 +433,18 @@
   margin-left: 0.6rem;
 }
 
-// Utilities / Universal
+// –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// Utilities –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-.play-color {
-  color: $play-color;
+.u-center {
+  text-align: center;
 }
 
-.work-color {
-  color: $work-color;
-}
-
-img {
-  width: 100%;
-  display: block;
-}
-
-.fill-height-or-more {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.page-content {
-  display: inline-block;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -moz-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1 0 auto;
-}
-
-.site-header, .site-footer {
-  flex: none; /* 2 */
+.u-vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }

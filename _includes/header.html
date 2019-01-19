@@ -6,23 +6,26 @@
     <div class="container navbar">
   {% endif %}
       <div class="row">
-        <div class="twelve columns navbar-content">
+        <div class="twelve columns">
           <div class="navbar-left">
             <ul class="navbar-list">
               {% if page.url == "/blog/" or page.layout == "post" %}
-                <li class="navbar-item navbar-text navbar-cur-page"><a class="header-play" href="/blog">play</a></li>
+                <li class="navbar-item navbar-text navbar-cur-page">
               {% else %}
-                <li class="navbar-item navbar-text"><a class="header-play" href="/blog">play</a></li>
+                <li class="navbar-item navbar-text">
               {% endif %}
+                  <a class="header-play" href="/blog">play</a>
+                </li>
 
               <li class="navbar-item navbar-text">&nbsp~&nbsp</li>
 
               {% if page.category == "work" or page.layout == "work" %}
-                <li class="navbar-item navbar-text navbar-cur-page"><a class="header-work" href="/work">work</a></li>
+                <li class="navbar-item navbar-text navbar-cur-page">
               {% else %}
-                <li class="navbar-item navbar-text"><a class="header-work" href="/work">work</a></li>
+                <li class="navbar-item navbar-text">
               {% endif %}
-
+                  <a class="header-work" href="/work">work</a>
+                </li>
             </ul>
           </div>
           <div class="navbar-right">
