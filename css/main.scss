@@ -182,11 +182,6 @@ a {
   font-size: 1.6rem;
 }
 
-.index-link:hover {
-  color: $dark-grey;
-  @include transition($plain-transition);
-}
-
 .index-right {
   display: none;
 }
@@ -222,6 +217,7 @@ a {
   visibility: hidden;
   overflow: hidden;
 }
+
 
 // Posts
 //––––––––––––––––––––––––––––––––––––––––––––––––––
