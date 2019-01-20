@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '3.5.2'
+gem 'jekyll', '3.8.5'
 
 group :jekyll_plugins do
   gem 'jekyll-paginate'
+  gem 'jekyll-optional-front-matter'
+  gem 'jekyll-email-protect'
 end
 

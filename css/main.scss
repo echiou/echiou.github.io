@@ -24,19 +24,11 @@
 // Universal –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 // –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
-.play-color {
+.play-color, .play a {
   color: $play-color;
 }
 
-.play a {
-  color: $play-color;
-}
-
-.work-color {
-  color: $work-color;
-}
-
-.work a {
+.work-color, .work a {
   color: $work-color;
 }
 
@@ -422,7 +414,7 @@ a {
 }
 
 .footer-copyright {
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.6 rem;
 }
 
 .footer-list {

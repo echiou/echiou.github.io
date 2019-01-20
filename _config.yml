@@ -22,3 +22,5 @@ collections:
 # plugins
 plugins:
   - jekyll-paginate
+  - jekyll-optional-front-matter
+  - jekyll-email-protect
