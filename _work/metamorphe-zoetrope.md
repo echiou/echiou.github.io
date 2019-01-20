@@ -5,7 +5,6 @@ dates: Summer 2015
 position: 3
 image: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/Metamorphe-Zoetrope/Metamorphe-Zoetrope-1.jpg
 category: hardware
-context: research
 ---
 <div class="embed-video">
   <iframe src="https://www.youtube.com/embed/nmKtfB-Ih18?rel=0&amp;controls=0&amp;autoplay=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
