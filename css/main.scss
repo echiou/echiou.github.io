@@ -223,13 +223,10 @@ a {
 }
 
 .index-right {
-  display: none;
-}
-
-@media (#{$bp-larger-than-phablet}) {
-  .index-right {
-    display: block;
-  }
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
 }
 
 .index-text {
@@ -250,7 +247,7 @@ a {
   height: 100%;
   background: url("/images/hci.jpg");
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 
   @include transition($plain-transition);
@@ -263,6 +260,53 @@ a {
   overflow: hidden;
 }
 
+@media (#{$bp-larger-than-phablet}) {
+  .index-right {
+    width: 50%;
+  }
+}
+
+@media (#{$bp-larger-than-desktop}) {
+  .index-columns {
+    // Responsive vertical align
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .index-half {
+    // Responsive vertical align
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .index-left {
+    // Fake 6 column grid
+    width: grid-column-width(6);
+    float: left;
+    box-sizing: border-box;
+
+    float: left;
+  }
+
+  .index-right {
+    // Fake 6 column grid
+    margin-left: $column-margin;
+    max-width: grid-column-width(6);
+    width: grid-column-width(6);
+    float: left;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 0;
+
+    float: right;
+  }
+}
 
 
 // –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
