@@ -136,8 +136,12 @@ a {
   display: inline-block;
 }
 
-.navbar-cur-page {
-  border-bottom: 1.5px solid $font-color;
+.navbar-cur-page-play {
+  border-bottom: 1.5px solid $play-color;
+}
+
+.navbar-cur-page-work {
+  border-bottom: 1.5px solid $work-color;
 }
 
 .index-navbar {

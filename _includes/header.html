@@ -9,8 +9,8 @@
         <div class="twelve columns">
           <div class="navbar-left">
             <ul class="navbar-list">
-              {% if page.url == "/blog/" or page.layout == "post" %}
-                <li class="navbar-item navbar-text navbar-cur-page">
+              {% if page.title == "Play" or page.layout == "post" %}
+                <li class="navbar-item navbar-text navbar-cur-page-play">
               {% else %}
                 <li class="navbar-item navbar-text">
               {% endif %}
@@ -20,7 +20,7 @@
               <li class="navbar-item navbar-text">&nbsp~&nbsp</li>
 
               {% if page.category == "work" or page.layout == "work" %}
-                <li class="navbar-item navbar-text navbar-cur-page">
+                <li class="navbar-item navbar-text navbar-cur-page-work">
               {% else %}
                 <li class="navbar-item navbar-text">
               {% endif %}
