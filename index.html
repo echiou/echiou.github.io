@@ -4,15 +4,9 @@ layout: default
 <main class="page-content">
   <div class="index-background">
     <div class="container u-vertical-align">
-      <div class="row index-content">
-        <div class="twelve columns u-vertical-align index-columns">
-          <div class="index-right index-half">
-            <div id="index-pic-container">
-              <div id="index-pic">
-              </div>
-            </div>
-          </div>
-          <div class="index-left index-half">
+      <div class="row">
+        <div class="twelve columns index-content">
+          <div class="index-left u-vertical-align">
             <p class="index-text">
               I'm Ethan Chiou, a firmware engineer at <a href="http://mindtribe.com" target="_blank" class="index-link work-color" id="index-mindtribe">Mindtribe</a>.
               <br><br>
@@ -22,6 +16,12 @@ layout: default
               <br><br>
               <a href="mailto:{{ site.email | encode_email }}" class="index-link work-color">ethanwchiou@gmail.com</a> | Contact for resume.
             </p>
+          </div>
+          <div class="index-right u-vertical-align">
+            <div id="index-pic-container">
+              <div id="index-pic">
+              </div>
+            </div>
           </div>
         </div>
       </div>
