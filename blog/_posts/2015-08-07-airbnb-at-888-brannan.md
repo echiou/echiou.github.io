@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog_post
 title:  "Airbnb @ 888 Brannan"
 date:   2015-08-07 12:37:00
 categories: adventure

@@ -1,12 +1,12 @@
 ---
-title: Play
+title: Blog
 layout: default
 ---
 <main class="page-content container play">
 
   <div class="row">
     <div class="twelve columns">
-      <h1 class="play-header">Play</h1>
+      <h1 class="play-header">{{ page.title }}</h1>
       <!-- This loops through the paginated posts -->
       {% for post in paginator.posts %}
         <div class="post-header">
@@ -38,10 +38,10 @@ layout: default
       <!-- Pagination links -->
       <div class="pagination">
         {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path }}" class="previous"><span class="fa fa-long-arrow-left"></span> Previous</a>
+          <a href="{{ paginator.previous_page_path }}" class="previous link-color"><span class="fa fa-long-arrow-left"></span> Previous</a>
         {% endif %}
         {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path }}" class="next">Next <span class="fa fa-long-arrow-right"></span></a>
+          <a href="{{ paginator.next_page_path }}" class="next link-color">Next <span class="fa fa-long-arrow-right"></span></a>
         {% endif %}
       </div>
     </div>

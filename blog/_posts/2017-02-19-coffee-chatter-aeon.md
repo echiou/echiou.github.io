@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog_post
 title:  "Coffee Chatter: AEON"
 date:   2017-02-19 13:00:00
 categories: coffeechatter

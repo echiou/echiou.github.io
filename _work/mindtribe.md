@@ -1,7 +1,7 @@
 ---
 layout: work_post
 title: Mindtribe
-dates: Summer 2016
+duration: Summer 2016
 position: 1
 image: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/MT/Nightlight.png
 category: software

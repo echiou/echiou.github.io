@@ -3,12 +3,10 @@ title: Ethan Chiou
 description: Hello there.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "echiou.com" # the base hostname & protocol for your site
-github_username: echiou
 email: "ethanwchiou@gmail.com"
 
 # Build settings
 markdown: kramdown
-permalink: /:title/
 
 paginate: 1
 pagination_path: "/blog"

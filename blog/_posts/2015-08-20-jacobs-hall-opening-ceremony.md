@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog_post
 title:  "Jacobs Hall Opening Ceremony"
 date:   2015-08-20 22:00:00
 categories: adventure

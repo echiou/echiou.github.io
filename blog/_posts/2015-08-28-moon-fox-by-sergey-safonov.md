@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog_post
 title:  "Moon Fox by Sergey Safonov"
 date:   2015-08-28 07:00:00
 categories: toys reviews

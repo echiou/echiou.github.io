@@ -9,7 +9,7 @@
         <div class="twelve columns">
           <div class="navbar-left">
             <ul class="navbar-list">
-              {% if page.title == "Play" or page.layout == "post" %}
+              {% if page.title == "Play" or page.title == "Blog" or layout.type == "play" or layout.type == "blog" %}
                 <li class="navbar-item navbar-text navbar-cur-page-play">
               {% else %}
                 <li class="navbar-item navbar-text">
@@ -19,7 +19,7 @@
 
               <li class="navbar-item navbar-text">&nbsp~&nbsp</li>
 
-              {% if page.category == "work" or page.layout == "work" %}
+              {% if page.title == "Work" or layout.type == "work" %}
                 <li class="navbar-item navbar-text navbar-cur-page-work">
               {% else %}
                 <li class="navbar-item navbar-text">

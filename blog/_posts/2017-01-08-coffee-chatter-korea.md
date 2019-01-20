@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog_post
 title:  "Coffee Chatter: Korea"
 date:   2017-01-08 17:00:00
 categories: coffeechatter

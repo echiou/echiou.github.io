@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog_post
 title:  "Jibibuts by noferin"
 date:   2015-08-10 20:00:00
 categories: toys reviews

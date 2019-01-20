@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog_post
 title:  "Carmel-by-the-Sea"
 date:   2015-08-03 11:00:00
 categories: adventure
