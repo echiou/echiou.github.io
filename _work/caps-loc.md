@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: work_post
 title: CapsLoc
 dates: Spring 2016
 position: 2

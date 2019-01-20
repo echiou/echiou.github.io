@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: work_post
 title: Metamorphe Zoetrope
 dates: Summer 2015
 position: 3

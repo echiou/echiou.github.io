@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: work_post
 title: Play Octagon
 dates: Fall 2015
 position: 4

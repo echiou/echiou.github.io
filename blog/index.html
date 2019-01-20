@@ -1,23 +1,12 @@
 ---
-title: Explore/Create
+title: Play
 layout: default
 ---
 <main class="page-content container play">
 
   <div class="row">
     <div class="twelve columns">
-      <h1 class="blog-header"><a href="/blog">Explor<span class="play-color">e/C</span>reate</a></h1>
-      <p class="blog-desc">A blog about things I do and places I go.</p>
-      <!-- Pagination links -->
-      <div class="pagination">
-        {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path }}" class="previous"><span class="fa fa-long-arrow-left"></span> Previous</a>
-        {% endif %}
-        {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path }}" class="next">Next <span class="fa fa-long-arrow-right"></span></a>
-        {% endif %}
-      </div>
-
+      <h1 class="play-header">Play</h1>
       <!-- This loops through the paginated posts -->
       {% for post in paginator.posts %}
         <div class="post-header">
@@ -25,6 +14,16 @@ layout: default
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
+          
+          <!-- Pagination links -->
+          <div class="post-nav">
+            {% if paginator.previous_page %}
+              <div class="previous"><a href="{{ paginator.previous_page_path }}" class="link-color"><span class="fa fa-long-arrow-left"></span> Previous</a></div>
+            {% endif %}
+            {% if paginator.next_page %}
+              <div class="next"><a href="{{ paginator.next_page_path }}" class="link-color">Next <span class="fa fa-long-arrow-right"></span></a></div>
+            {% endif %}
+          </div>
         </div>
 
         <div class="row">

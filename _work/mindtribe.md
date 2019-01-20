@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: work_post
 title: Mindtribe
 dates: Summer 2016
 position: 1
