@@ -188,8 +188,6 @@ a {
 .scroll-to-top {
   text-decoration: none;
   position:fixed;
-  bottom: 4rem;
-  right: 4rem;
   opacity: 0;
   height: 0;
   overflow: hidden;
@@ -201,12 +199,20 @@ a {
 
 @media (#{$bp-larger-than-tablet}) {
   .scroll-to-top {
+    bottom: 2rem;
+    right: 2rem;
     height: auto;
     overflow: visible;
     visibility: visible;
   }
 }
 
+@media (#{$bp-larger-than-desktop}) {
+  .scroll-to-top {
+    bottom: 4rem;
+    right: 4rem;
+  }
+}
 
 
 // –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
