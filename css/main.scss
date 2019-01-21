@@ -188,12 +188,13 @@ a {
 .scroll-to-top {
   text-decoration: none;
   position:fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 4rem;
+  right: 4rem;
   opacity: 0;
   height: 0;
   overflow: hidden;
   visibility: hidden;
+  pointer-events: none;
 
   @include transition($plain-transition);
 }
