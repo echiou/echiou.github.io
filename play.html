@@ -1,0 +1,32 @@
+---
+title: Play
+layout: default
+permalink: /play/
+---
+<main class="page-content container">
+
+  <div class="row">
+    <div class="twelve columns">
+      <h1 class="play-header">Play</h1>
+      <ul class="play-posts">
+          {% assign posts = site.play %}
+          {% for post in posts %}
+          <li class="play-post">
+            <a class="play-link" href={{ post.url }}>
+              <!-- Oof, inline css to get the variables to work here. -->
+              <div class="play-img" style="background-image: url({{ post.image }}); background-position: 50% {{ post.img-pos }};"></div>
+              <div class="white-overlay"></div>
+              <div class="play-meta">
+                <div class="u-vertical-align">
+                  <p class="play-post-meta">{{ post.dates }}</p>
+                  <h1 class="play-post-title">{{ post.title }}</h2>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+</main>

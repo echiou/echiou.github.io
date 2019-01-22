@@ -1,7 +1,7 @@
 ---
 layout: work_post
 title: Play Octagon
-duration: Fall 2015
+dates: Fall 2015
 position: 4
 image: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/IDD/Play-Octagon-1.jpg
 category: hardware

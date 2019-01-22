@@ -7,8 +7,8 @@ layout: default
     <div class="row">
       <div class="twelve columns">
         <div class="post-header">
-          {% if page.duration %}
-            <p class="post-meta">{{ page.duration }}</p>
+          {% if page.dates %}
+            <p class="post-meta">{{ page.dates }}</p>
           {% else %}
             <p class="post-meta">{{ page.date | date: "%m.%d.%y"}}</p>
           {% endif %}

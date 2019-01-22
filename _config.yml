@@ -18,6 +18,10 @@ collections:
     output: true
     permalink: /work/:path/
 
+  play:
+    output: true
+    permalink: /play/:path/
+
 # plugins
 plugins:
   - jekyll-paginate

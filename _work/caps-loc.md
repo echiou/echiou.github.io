@@ -1,7 +1,7 @@
 ---
 layout: work_post
 title: CapsLoc
-duration: Spring 2016
+dates: Spring 2016
 position: 2
 image: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/Work/CapsLoc/CapsLoc.png
 category: hardware

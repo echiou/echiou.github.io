@@ -2,7 +2,6 @@
 title: Work
 layout: default
 permalink: /work/
-category: work
 ---
 <main class="page-content container">
 
@@ -18,7 +17,7 @@ category: work
               <div class="white-overlay"></div>
               <div class="work-meta">
                 <div class="u-vertical-align">
-                  <p class="post-meta">{{ post.dates }}</p>
+                  <p class="work-post-meta">{{ post.dates }}</p>
 
                   <div class="work-icon-holder">
                     {% if post.category == 'hardware' %}
@@ -30,7 +29,7 @@ category: work
                     {% endif %}
                   </div>
 
-                  <h2 class="post-title">{{ post.title }}</h2>
+                  <h2 class="work-post-title">{{ post.title }}</h2>
                 </div>
               </div>
             </a>

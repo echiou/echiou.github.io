@@ -14,7 +14,7 @@
 // - Header
 // - Index Page
 // - Posts
-// - Work Pages
+// - Work & Play Pages
 // - Footer
 // - Utilities
 
@@ -360,7 +360,7 @@ a {
 
 
 // –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-// Work Page –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// Work & Play Pages –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 // –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 .work-posts {
@@ -392,14 +392,24 @@ a {
   left: 0;
   z-index: 1;
   opacity: 0;
+  color: $font-color;
 
   @include transition($plain-transition);
+}
+
+.work-post-meta {
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+.work-post-title {
+  margin-bottom: 0;
 }
 
 .work-icon-holder {
   height: 7rem;
   margin-bottom: 0.5rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .work-icon {
@@ -439,6 +449,82 @@ a {
   }
 }
 
+.play-posts {
+  width: 100%;
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -2rem;
+}
+
+.play-post {
+  position: relative;
+  box-sizing: border-box;
+  float: left;
+  line-height: 0;
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding-bottom: 33%;
+}
+
+.play-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.play-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.play-meta {
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  color: $link-color;
+
+  @include transition($plain-transition);
+}
+
+.play-post-meta {
+  line-height: normal;
+  margin-bottom: 0.5rem;
+}
+
+.play-post-title {
+  margin-bottom: 0;
+  font-size: 2.4rem;
+  color: $play-color;
+}
+
+// Larger than phablet
+@media (#{$bp-larger-than-tablet}) {
+  
+}
+
+.play-link:hover > .white-overlay, .play-link:hover > .play-meta {
+  opacity: 1;
+}
+
+@media (#{$bp-larger-than-tablet}) {
+  .play-post {
+    margin-bottom: 2rem;
+  }
+
+  .play-post-title {
+    font-size: 2.8rem;
+  }
+}
 
 
 // –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
