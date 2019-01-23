@@ -1,7 +1,8 @@
 ---
 layout: play_post
-title: seoul
-dates: Winter 2016
+title: Seoul, South Korea
+date: 2016-12-24
+category: pictures
 image: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/FFF/FFF03/2.jpg
 img-pos: 90%
 ---

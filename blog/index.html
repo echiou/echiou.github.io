@@ -10,7 +10,7 @@ layout: default
       <!-- This loops through the paginated posts -->
       {% for post in paginator.posts %}
         <div class="post-header">
-          <p class="post-meta">{{ post.date | date: "%m.%d.%y"}}</p>
+          <p class="post-meta">{{ post.date | date: "%B %Y"}}</p>
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>

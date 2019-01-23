@@ -108,6 +108,9 @@ a {
   flex: none; /* 2 */
 }
 
+.header-anchor {
+  padding-top: 2rem; margin-top: -2rem;
+}
 
 
 // –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
@@ -453,6 +456,10 @@ a {
   width: 100%;
   display: inline-block;
   list-style: none;
+  margin-bottom: 0;
+}
+
+.play-posts:last-child {
   margin-bottom: -2rem;
 }
 
@@ -533,8 +540,8 @@ a {
 
 .footer {
   font-size: 1.2rem;
-  margin-top: 1.2rem;
-  margin-bottom: 1.2rem;
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
 }
 
 .footer-copyright {

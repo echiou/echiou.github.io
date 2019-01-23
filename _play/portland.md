@@ -1,7 +1,8 @@
 ---
 layout: play_post
-title: portland
-dates: Winter 2016
+title: Portland
+date: 2017-01-03
+category: pictures
 image: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/FFF/FFF05/4.jpg
 img-pos: 35%
 ---

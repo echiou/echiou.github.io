@@ -1,7 +1,8 @@
 ---
 layout: play_post
-title: taiwan
-dates: Winter 2016
+title: Taiwan
+date: 2016-12-05
+category: pictures
 image: https://raw.githubusercontent.com/echiou/echiou.github.io-images/master/FFF/FFF07/2.jpg
 img-pos: 40%
 ---
