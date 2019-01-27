@@ -3,39 +3,42 @@ title: Work
 layout: default
 permalink: /work/
 ---
-<main class="page-content container">
+<main class="page-content container work">
 
   <div class="row">
-    <div class="twelve columns">
-      <h1 class="work-header">Work</h1>
-      <ul class="work-posts">
-          {% assign posts = site.work | sort: 'position' %}
-          {% for post in posts %}
-          <li class="work-post">
-            <a class="work-link" href={{ post.url }}>
-              <img src={{ post.image }}>
-              <div class="white-overlay"></div>
-              <div class="work-meta">
-                <div class="u-vertical-align">
-                  <p class="work-post-meta">{{ post.dates }}</p>
-
-                  <div class="work-icon-holder">
-                    {% if post.category == 'hardware' %}
-                      {% include /svg/hardware.svg %}
-                    {% elsif post.category == 'software'%}
-                      {% include /svg/software.svg %}
-                    {% elsif post.category == 'design'%}
-                      {% include /svg/design.svg %}
-                    {% endif %}
-                  </div>
-
-                  <h2 class="work-post-title">{{ post.title }}</h2>
-                </div>
-              </div>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
+    <div class="four columns">
+      <p><img src="/images/hci.jpg"></p>
+    </div>
+    <div class="eight columns work-info">
+      <h1>tl;dr</h1>
+      <p class="work-tldr-entry">
+        <b>2017-Present</b>
+        <br>
+        Firmware Engineer, Mindtribe
+      </p>
+      <p class="work-tldr-entry">
+        <b>2016</b>
+        <br>
+        Firmware Engineering Intern, Mindtribe
+      </p>
+      <p class="work-tldr-entry">
+        <b>Education</b>
+        <br>
+        B.S. in Electrical Engineering & Computer Science, UC Berkeley
+      </p>
+      </p>
+      <h1>A Bit More Info</h1>
+      <p>
+        Currently, I'm a Firmware Engineer at <a href="http://mindtribe.com" target="_blank">Mindtribe</a>, where I build cutting-edge hardware products with our clients in multidisciplinary teams.
+      </p>
+      <p>
+        There, I've worked on products in various stages of their life cycles: from tuning LEDs with designers during beta tests, to validating assumptions by quickly bringing up BLE prototypes and an Android app, to guiding firmware efforts on a project-level.
+      </p>
+      <p>
+        I graduated from UC Berkeley with a B.S. in Electrical Engineering & Computer Science, focusing largely on Human-Computer Interaction. I co-authored a <a href="https://dl.acm.org/citation.cfm?doid=3173574.3173723" target="_blank">paper about Digital Fabrication</a> while working under <a href="http://www.paulos.net/" target="_blank">Eric Paulos</a> and <a href="https://rutian.github.io/" target="_blank">Kevin Tian</a> which won an Honorable Mention Award at CHI '18.
+      </p>
+      <h1>Contact</h1>
+      <p>If you'd like to grab a cup of coffee, feel free to <a href="mailto:{{ site.email | encode_email }}" class="index-link work-color">send me an e-mail</a>.</p>
     </div>
   </div>
 
