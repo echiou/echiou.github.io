@@ -370,7 +370,11 @@ a {
   text-align: left;
 }
 
-.work-tldr-entry {
+.work-section {
+  margin-bottom: 4rem;
+}
+
+.work-tldr-entry, .work-entry {
   margin-bottom: 1rem;
 }
 
@@ -524,7 +528,7 @@ a {
 
 // Larger than phablet
 @media (#{$bp-larger-than-tablet}) {
-  
+
 }
 
 .play-link:hover > .white-overlay, .play-link:hover > .play-meta {
