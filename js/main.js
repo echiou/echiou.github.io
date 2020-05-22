@@ -28,6 +28,10 @@ window.onload = function(){
     $( "#index-pic" ).css("background-image", "url\(\"/images/play.jpg\"\)");
   });
 
+  $( "#index-samsara" ).mouseenter(function() {
+    $( "#index-pic" ).css("background-image", "url\(\"/images/samsara.jpg\"\)");
+  });
+
   $( "#index-mindtribe" ).mouseenter(function() {
     $( "#index-pic" ).css("background-image", "url\(\"/images/mindtribe.jpg\"\)");
   });
