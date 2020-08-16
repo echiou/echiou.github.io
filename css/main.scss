@@ -43,7 +43,7 @@ html {
 }
 
 body {
-  text-align: center;
+  text-align: left;
   height: 100%;
   margin: 0;
 }
@@ -306,6 +306,7 @@ a {
 // –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 .post-header {
+  text-align: center;
   padding-bottom: 2rem;
 }
 
@@ -464,6 +465,10 @@ a {
   }
 }
 
+.play {
+  text-align: center;
+}
+
 .play-posts {
   width: 100%;
   display: inline-block;
@@ -502,6 +507,7 @@ a {
 }
 
 .play-meta {
+  text-align: center;
   pointer-events: none;
   width: 100%;
   height: 100%;
