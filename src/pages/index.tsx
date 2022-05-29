@@ -1,4 +1,3 @@
-import "cirrus-ui";
 import * as React from "react";
 import "../styling/main.scss"
 // import '@fontsource/cutive-mono';
