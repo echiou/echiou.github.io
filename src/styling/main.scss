@@ -1,5 +1,15 @@
 @use "cirrus-ui/src/cirrus-ext" as *;
 
-html {
-  background-color: lightgray;
+// User created color variables
+$work-color: #ee6557 !default;
+$play-color: #16a6b6 !default;
+
+.play-color,
+.play a {
+  color: $play-color;
+}
+
+.work-color,
+.work a {
+  color: $work-color;
 }
