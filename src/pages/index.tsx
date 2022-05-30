@@ -1,18 +1,13 @@
 import * as React from "react";
-import "../styling/main.scss"
-// import '@fontsource/cutive-mono';
-
-// const mono = {
-//   fontFamily: 'Cutive Mono',
-// };
+import "../styling/main.scss";
 
 class Intro extends React.Component<any, any> {
   render() {
     return (
       <div className="row">
-      <div className="col-6 u-text-right">hi</div>
-      <div className="col-6">sup</div>
-    </div>
+        <div className="col-6 u-text-center u-text-right-md">hi</div>
+        <div className="col-6 u-text-center u-text-left-md">sup</div>
+      </div>
     );
   }
 }
