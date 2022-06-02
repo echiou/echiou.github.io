@@ -1108,11 +1108,6 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@fontsource/lora@^4.5.9":
-  version "4.5.9"
-  resolved "https://registry.yarnpkg.com/@fontsource/lora/-/lora-4.5.9.tgz#e0af833966fe234928c40fbbbc05db87a56577f4"
-  integrity sha512-P8yVmdSyMhAA2UbxctmtkInOKwuOFG6EniwajO96o/1ZiFmJMtEP/e2oZLmrY5ZqpUIG+83K4TFEAGAnWsZkuA==
-
 "@gatsbyjs/parcel-namer-relative-to-cwd@^1.0.0":
   version "1.0.0"
   resolved "https://registry.npmjs.org/@gatsbyjs/parcel-namer-relative-to-cwd/-/parcel-namer-relative-to-cwd-1.0.0.tgz"
