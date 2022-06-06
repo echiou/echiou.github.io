@@ -1,5 +1,7 @@
 import * as React from "react";
-import "../styling/main.scss";
+
+import Layout from "../components/layout"
+
 import hci from "../images/hci.jpg";
 import play from "../images/play.jpg";
 import samsara from "../images/samsara.jpg";
@@ -75,7 +77,7 @@ const Intro = () => {
 
 const IndexPage: React.FC = () => {
   return (
-    <main>
+    <Layout>
       <section>
         <div className="hero fullscreen">
           <div className="hero-body">
@@ -83,7 +85,7 @@ const IndexPage: React.FC = () => {
           </div>
         </div>
       </section>
-    </main>
+    </Layout>
   );
 };
 
