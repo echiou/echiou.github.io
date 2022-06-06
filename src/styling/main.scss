@@ -14,6 +14,20 @@ a {
   }
 }
 
+.play-link {
+  color: $play-color;
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+.work-link {
+  color: $work-color;
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
 .intro-images {
   background-size: cover;
 
@@ -22,14 +36,4 @@ a {
   -moz-transition: background-image 0.3s ease-in;
   -ms-transition: background-image 0.3s ease-in;
   -o-transition: background-image 0.3s ease-in;
-}
-
-.play-color,
-.play a {
-  color: $play-color;
-}
-
-.work-color,
-.work a {
-  color: $work-color;
 }

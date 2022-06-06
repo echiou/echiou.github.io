@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import Layout from "../components/layout"
+import Layout from "../components/layout";
 
 import hci from "../images/hci.jpg";
 import play from "../images/play.jpg";
@@ -28,8 +28,7 @@ const Intro = () => {
             <a
               href="https://www.span.io/"
               target="_blank"
-              className="index-link work-color"
-              id="index-span"
+              className="work-link"
               onMouseEnter={() => setSrcName(span)}
             >
               Span
@@ -38,8 +37,7 @@ const Intro = () => {
             <a
               href="https://www.samsara.com/"
               target="_blank"
-              className="index-link work-color"
-              id="index-samsara"
+              className="work-link"
               onMouseEnter={() => setSrcName(samsara)}
             >
               Samsara
@@ -50,8 +48,7 @@ const Intro = () => {
             {"In my free time, I enjoy "}
             <a
               href="/play"
-              className="index-link play-color"
-              id="index-photos"
+              className="play-link"
               onMouseEnter={() => setSrcName(play)}
             >
               taking photos
@@ -60,10 +57,7 @@ const Intro = () => {
             <br />
             <br />
             {"Feel free to contact me at "}
-            <a
-              href="mailto:{{ site.email | encode_email }}"
-              className="index-link"
-            >
+            <a href="mailto:{{ site.email | encode_email }}">
               &#101;&#116;&#104;&#097;&#110;&#119;&#099;&#104;&#105;&#111;&#117;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
             </a>
             .
