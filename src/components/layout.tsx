@@ -4,12 +4,23 @@ import "../styling/main.scss";
 export default function Layout({ children }) {
   return (
     <main>
-      <header className="site-header">
+      <div className="header header-clear">
+        <div className="header-brand">
+          <div className="nav-item">
+            <a href="/">
+              <span className="play-link">ethan</span>
+              &nbsp;
+              <span className="work-link">chiou</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* <header className="site-header">
         <div className="container navbar">
           <div className="row">
             <div className="col-12">
               <div>
-                <ul>
+                <ul className="navbar-list">
                   <li className="navbar-item">
                     <a className="work-link" href="/work">
                       work
@@ -23,15 +34,11 @@ export default function Layout({ children }) {
                 </ul>
               </div>
               <div>
-                <a href="/">
-                  <span className="play-link">ethan</span>{" "}
-                  <span className="work-link">chiou</span>
-                </a>
               </div>
             </div>
           </div>
         </div>
-      </header>
+      </header> */}
 
       {children}
     </main>

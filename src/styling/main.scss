@@ -6,9 +6,17 @@ $link-hover-color: #242424 !default;
 $work-color: #ee6557 !default;
 $play-color: #16a6b6 !default;
 
-a {
+a,
+a span {
   color: $link-color;
   padding: 0;
+
+  transition: color 0.3s ease-in;
+  -webkit-transition: color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in;
+  -ms-transition: color 0.3s ease-in;
+  -o-transition: color 0.3s ease-in;
+
   &:hover {
     color: $link-hover-color;
   }
@@ -16,16 +24,10 @@ a {
 
 .play-link {
   color: $play-color;
-  &:hover {
-    color: $link-hover-color;
-  }
 }
 
 .work-link {
   color: $work-color;
-  &:hover {
-    color: $link-hover-color;
-  }
 }
 
 .intro-images {
