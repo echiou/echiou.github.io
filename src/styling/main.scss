@@ -1,8 +1,28 @@
 @use "cirrus-ui/src/cirrus-ext" as *;
 
 // User created color variables
+$link-color: #666666 !default;
+$link-hover-color: #242424 !default;
 $work-color: #ee6557 !default;
 $play-color: #16a6b6 !default;
+
+a {
+  color: $link-color;
+  padding: 0;
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+.intro-images {
+  background-size: cover;
+
+  transition: background-image 0.3s ease-in;
+  -webkit-transition: background-image 0.3s ease-in;
+  -moz-transition: background-image 0.3s ease-in;
+  -ms-transition: background-image 0.3s ease-in;
+  -o-transition: background-image 0.3s ease-in;
+}
 
 .play-color,
 .play a {
