@@ -20,7 +20,7 @@ const Intro = () => {
   };
 
   return (
-    <div className="content px-12-lg px-36-xl my-0">
+    <div className="content px-12-lg px-36-xl m-0">
       <div className="row">
         <div className="col-6 u-flex u-items-center u-text-left u-text-right-md">
           <p className="m-0">
@@ -74,7 +74,7 @@ const IndexPage: React.FC = () => {
     <Layout>
       <section>
         <div className="hero fullscreen">
-          <div className="hero-body">
+          <div className="hero-body p-0 u-justify-center">
             <Intro />
           </div>
         </div>

@@ -18,17 +18,37 @@ a span {
   -o-transition: color 0.3s ease-in;
 
   &:hover {
-    color: $link-hover-color;
+    color: $link-hover-color !important;
   }
 }
 
-.play-link {
+// Override Cirrus defaults with specificity
+.play-link,
+.header .play-link {
   color: $play-color;
 }
 
-.work-link {
+// Override Cirrus defaults with specificity
+.work-link,
+.header .work-link {
   color: $work-color;
 }
+
+// –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// Header ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.header {
+  box-shadow: none;
+}
+
+.nav-item {
+  cursor: default;
+}
+
+// –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// Index Page ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 .intro-images {
   background-size: cover;
