@@ -20,10 +20,10 @@ const Intro = () => {
   };
 
   return (
-    <div className="content px-12-lg px-36-xl m-0">
+    <div className="content m-0 max-w-60p">
       <div className="row">
-        <div className="col-6 u-flex u-items-center u-text-left u-text-right-md">
-          <p className="m-0">
+        <div className="col-6 u-flex u-items-center u-align-stretch u-text-left u-text-right-md">
+          <p className="m-0 u-align-end">
             {"Hi there! I'm Ethan, a firmware engineer at "}
             <a
               href="https://www.span.io/"
@@ -63,7 +63,7 @@ const Intro = () => {
             .
           </p>
         </div>
-        <div className="col-6">{introImg()}</div>
+        <div className="col-6 u-flex u-align-stretch">{introImg()}</div>
       </div>
     </div>
   );
