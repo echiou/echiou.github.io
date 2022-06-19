@@ -20,9 +20,9 @@ const Intro = () => {
   };
 
   return (
-    <div className="content m-0 max-w-60p">
-      <div className="row">
-        <div className="col-6 u-flex u-items-center u-align-stretch u-text-left u-text-right-md">
+    <div className="content m-0 max-w-0-lg">
+      <div className="row u-center">
+        <div className="col-6 u-flex u-items-center u-justify-flex-end u-align-stretch u-text-left u-text-right-md">
           <p className="m-0 u-align-end">
             {"Hi there! I'm Ethan, a firmware engineer at "}
             <a
@@ -63,7 +63,7 @@ const Intro = () => {
             .
           </p>
         </div>
-        <div className="col-6 u-flex u-align-stretch">{introImg()}</div>
+        <div className="col-6 u-flex u-align-stretch u-h-fit-content">{introImg()}</div>
       </div>
     </div>
   );
