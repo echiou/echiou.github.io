@@ -20,9 +20,9 @@ const Intro = () => {
   };
 
   return (
-    <div className="content m-0 max-w-0-lg">
+    <div className="content m-0 px-8 px-16-sm px-8-md px-20-lg p-32-xl max-w-0-lg">
       <div className="row u-center">
-        <div className="col-6 u-flex u-items-center u-justify-flex-end u-align-stretch u-text-left u-text-right-md">
+        <div className="col-6 u-flex u-items-center pb-5 pb-0-md u-justify-flex-end u-align-stretch u-text-left u-text-right-md">
           <p className="m-0 u-align-end">
             {"Hi there! I'm Ethan, a firmware engineer at "}
             <a
